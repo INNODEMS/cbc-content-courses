@@ -21,14 +21,14 @@ import shutil
 from pathlib import Path
 
 
-def extract_mbz_file(filename, source_dir="raw-mbz-files", target_dir="cuorses-extracted"):
+def extract_mbz_file(filename, source_dir="raw-mbz-files", target_dir="courses-extracted"):
     """
     Extract a specific MBZ file from source directory to target directory.
     
     Args:
         filename: Name of the .mbz file to extract (e.g., 'course-backup.mbz')
         source_dir: Directory containing .mbz files (default: raw-mbz-files)
-        target_dir: Directory where course will be extracted (default: cuorses-extracted)
+        target_dir: Directory where course will be extracted (default: courses-extracted)
     """
     # Get the repository root (parent of scripts folder)
     repo_root = Path(__file__).parent.parent
