@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="238" moduleid="22555" modulename="folder" contextid="166131">
+  <folder id="238">
+    <name>Images</name>
+    <intro></intro>
+    <introformat>0</introformat>
+    <revision>3</revision>
+    <timemodified>1770671920</timemodified>
+    <display>0</display>
+    <showexpanded>1</showexpanded>
+    <showdownloadfolder>1</showdownloadfolder>
+    <forcedownload>1</forcedownload>
+  </folder>
+</activity>

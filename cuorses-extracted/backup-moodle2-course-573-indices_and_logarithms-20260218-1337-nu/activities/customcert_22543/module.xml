@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="22543" version="2024042207">
+  <modulename>customcert</modulename>
+  <sectionid>6937</sectionid>
+  <sectionnumber>12</sectionnumber>
+  <idnumber></idnumber>
+  <added>1770298988</added>
+  <score>0</score>
+  <indent>0</indent>
+  <visible>1</visible>
+  <visibleoncoursepage>1</visibleoncoursepage>
+  <visibleold>1</visibleold>
+  <groupmode>0</groupmode>
+  <groupingid>0</groupingid>
+  <completion>0</completion>
+  <completiongradeitemnumber>$@NULL@$</completiongradeitemnumber>
+  <completionpassgrade>0</completionpassgrade>
+  <completionview>0</completionview>
+  <completionexpected>0</completionexpected>
+  <availability>{"op":"&amp;","c":[{"type":"completion","cm":22537,"e":1},{"type":"completion","cm":22538,"e":1},{"type":"completion","cm":22539,"e":1},{"type":"completion","cm":22540,"e":1},{"type":"completion","cm":22541,"e":1},{"type":"completion","cm":22542,"e":1},{"type":"completion","cm":22553,"e":1},{"type":"completion","cm":22552,"e":1},{"type":"completion","cm":22551,"e":1},{"type":"completion","cm":22550,"e":1}],"showc":[true,true,true,true,true,true,true,true,true,true]}</availability>
+  <showdescription>0</showdescription>
+  <downloadcontent>1</downloadcontent>
+  <lang></lang>
+  <tags>
+  </tags>
+</module>

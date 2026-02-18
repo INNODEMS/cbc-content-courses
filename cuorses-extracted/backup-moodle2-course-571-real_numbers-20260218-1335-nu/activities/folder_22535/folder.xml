@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="235" moduleid="22535" modulename="folder" contextid="166033">
+  <folder id="235">
+    <name>pdfs without devices</name>
+    <intro></intro>
+    <introformat>0</introformat>
+    <revision>1</revision>
+    <timemodified>1770381131</timemodified>
+    <display>0</display>
+    <showexpanded>1</showexpanded>
+    <showdownloadfolder>1</showdownloadfolder>
+    <forcedownload>1</forcedownload>
+  </folder>
+</activity>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activity id="13" moduleid="22514" modulename="customcert" contextid="166008">
+  <customcert id="13">
+    <templateid>13</templateid>
+    <name>Download your completion certificate</name>
+    <intro></intro>
+    <introformat>0</introformat>
+    <requiredtime>0</requiredtime>
+    <verifyany>0</verifyany>
+    <emailstudents>0</emailstudents>
+    <emailteachers>0</emailteachers>
+    <emailothers></emailothers>
+    <protection></protection>
+    <timecreated>1770298988</timecreated>
+    <timemodified>1770334266</timemodified>
+    <issues>
+    </issues>
+    <template id="13">
+      <name>Download your completion certificate</name>
+      <contextid>166008</contextid>
+      <timecreated>1770298988</timecreated>
+      <timemodified>1770754962</timemodified>
+      <pages>
+        <page id="14">
+          <templateid>13</templateid>
+          <width>297</width>
+          <height>210</height>
+          <leftmargin>0</leftmargin>
+          <rightmargin>0</rightmargin>
+          <sequence>1</sequence>
+          <timecreated>1770298988</timecreated>
+          <timemodified>1770299666</timemodified>
+          <element id="44">
+            <pageid>14</pageid>
+            <name>KMS Logo</name>
+            <element>image</element>
+            <data>{"width":35,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"KMS_logo.jpeg"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>131</posx>
+            <posy>6</posy>
+            <width>35</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>1</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770300745</timecreated>
+            <timemodified>1770300800</timemodified>
+          </element>
+          <element id="45">
+            <pageid>14</pageid>
+            <name>INNODEMS logo</name>
+            <element>image</element>
+            <data>{"width":85,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"INNODEMS_logo.png"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>22</posx>
+            <posy>17</posy>
+            <width>85</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>2</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770300860</timecreated>
+            <timemodified>1770301010</timemodified>
+          </element>
+          <element id="46">
+            <pageid>14</pageid>
+            <name>Image</name>
+            <element>image</element>
+            <data>{"width":53,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"IDEMS_logo.png"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>203</posx>
+            <posy>17</posy>
+            <width>53</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>3</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770300932</timecreated>
+            <timemodified>1770300981</timemodified>
+          </element>
+          <element id="47">
+            <pageid>14</pageid>
+            <name>Text</name>
+            <element>text</element>
+            <data>Certificate of Completion</data>
+            <font>times</font>
+            <fontsize>32</fontsize>
+            <colour>#000000</colour>
+            <posx>148</posx>
+            <posy>47</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>4</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770301112</timecreated>
+            <timemodified>1770301193</timemodified>
+          </element>
+          <element id="48">
+            <pageid>14</pageid>
+            <name>Student name</name>
+            <element>studentname</element>
+            <data></data>
+            <font>times</font>
+            <fontsize>26</fontsize>
+            <colour>#000000</colour>
+            <posx>148</posx>
+            <posy>76</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>5</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770301259</timecreated>
+            <timemodified>1770301577</timemodified>
+          </element>
+          <element id="49">
+            <pageid>14</pageid>
+            <name>Image</name>
+            <element>image</element>
+            <data>{"width":135,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"participant line.svg"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>81</posx>
+            <posy>86</posy>
+            <width>135</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>6</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770301488</timecreated>
+            <timemodified>1770301538</timemodified>
+          </element>
+          <element id="50">
+            <pageid>14</pageid>
+            <name>for completing...</name>
+            <element>text</element>
+            <data>For successful completion of the course</data>
+            <font>times</font>
+            <fontsize>16</fontsize>
+            <colour>#000000</colour>
+            <posx>149</posx>
+            <posy>96</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>7</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770301646</timecreated>
+            <timemodified>1770301646</timemodified>
+          </element>
+          <element id="51">
+            <pageid>14</pageid>
+            <name>Course name</name>
+            <element>coursename</element>
+            <data>2</data>
+            <font>times</font>
+            <fontsize>24</fontsize>
+            <colour>#000000</colour>
+            <posx>149</posx>
+            <posy>104</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>8</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770301676</timecreated>
+            <timemodified>1770301676</timemodified>
+          </element>
+          <element id="52">
+            <pageid>14</pageid>
+            <name>delivered by</name>
+            <element>text</element>
+            <data>Delivered jointly by INNODEMS, The Kenya Mathematical Society (KMS), and IDEMS International</data>
+            <font>times</font>
+            <fontsize>16</fontsize>
+            <colour>#000000</colour>
+            <posx>148</posx>
+            <posy>119</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>9</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770301752</timecreated>
+            <timemodified>1770304090</timemodified>
+          </element>
+          <element id="53">
+            <pageid>14</pageid>
+            <name>Mike signature</name>
+            <element>image</element>
+            <data>{"width":45,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"mike_signature_transparent.png"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>34</posx>
+            <posy>140</posy>
+            <width>45</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>10</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770301906</timecreated>
+            <timemodified>1770303287</timemodified>
+          </element>
+          <element id="54">
+            <pageid>14</pageid>
+            <name>Zach signature</name>
+            <element>image</element>
+            <data>{"width":35,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"zach signature.png"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>221</posx>
+            <posy>149</posy>
+            <width>35</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>11</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770302031</timecreated>
+            <timemodified>1770302187</timemodified>
+          </element>
+          <element id="56">
+            <pageid>14</pageid>
+            <name>mike signature underline</name>
+            <element>image</element>
+            <data>{"width":45,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"participant line.svg"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>36</posx>
+            <posy>156</posy>
+            <width>45</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>12</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770302210</timecreated>
+            <timemodified>1770302210</timemodified>
+          </element>
+          <element id="57">
+            <pageid>14</pageid>
+            <name>zach signature underline</name>
+            <element>image</element>
+            <data>{"width":50,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"participant line.svg"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>215</posx>
+            <posy>156</posy>
+            <width>50</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>13</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770302261</timecreated>
+            <timemodified>1770302261</timemodified>
+          </element>
+          <element id="58">
+            <pageid>14</pageid>
+            <name>Mike details</name>
+            <element>text</element>
+            <data>Dr. Michael O. Oyengo&lt;br&gt;
+Chair of the Kenya Mathematical Society (KMS)&lt;br&gt;
+Director &amp;amp; Education Lead, INNODEMS&lt;br&gt;
+Lecturer, Maseno University</data>
+            <font>times</font>
+            <fontsize>12</fontsize>
+            <colour>#000000</colour>
+            <posx>58</posx>
+            <posy>164</posy>
+            <width>110</width>
+            <refpoint>1</refpoint>
+            <sequence>14</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770302540</timecreated>
+            <timemodified>1770305257</timemodified>
+          </element>
+          <element id="62">
+            <pageid>14</pageid>
+            <name>Zach details</name>
+            <element>text</element>
+            <data>Mr. Zach Mbasu&lt;br&gt;
+General Director, INNODEMS</data>
+            <font>times</font>
+            <fontsize>12</fontsize>
+            <colour>#000000</colour>
+            <posx>240</posx>
+            <posy>164</posy>
+            <width>110</width>
+            <refpoint>1</refpoint>
+            <sequence>15</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770302789</timecreated>
+            <timemodified>1770305303</timemodified>
+          </element>
+          <element id="100">
+            <pageid>14</pageid>
+            <name>David signature</name>
+            <element>image</element>
+            <data>{"width":30,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"David signature.png"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>134</posx>
+            <posy>144</posy>
+            <width>30</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>16</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770754707</timecreated>
+            <timemodified>1770754722</timemodified>
+          </element>
+          <element id="101">
+            <pageid>14</pageid>
+            <name>David details</name>
+            <element>text</element>
+            <data>Dr. David Stern&lt;br&gt;
+Mathematical Scientist&lt;br&gt;
+Director, IDEMS International</data>
+            <font>times</font>
+            <fontsize>12</fontsize>
+            <colour>#000000</colour>
+            <posx>149</posx>
+            <posy>165</posy>
+            <width>0</width>
+            <refpoint>1</refpoint>
+            <sequence>17</sequence>
+            <alignment>C</alignment>
+            <timecreated>1770754756</timecreated>
+            <timemodified>1770754756</timemodified>
+          </element>
+          <element id="102">
+            <pageid>14</pageid>
+            <name>David signature underline</name>
+            <element>image</element>
+            <data>{"width":50,"height":0,"alphachannel":1,"contextid":"165404","filearea":"image","itemid":"0","filepath":"\/","filename":"participant line.svg"}</data>
+            <font>$@NULL@$</font>
+            <fontsize>$@NULL@$</fontsize>
+            <colour>$@NULL@$</colour>
+            <posx>123</posx>
+            <posy>156</posy>
+            <width>50</width>
+            <refpoint>$@NULL@$</refpoint>
+            <sequence>18</sequence>
+            <alignment>L</alignment>
+            <timecreated>1770754812</timecreated>
+            <timemodified>1770754812</timemodified>
+          </element>
+        </page>
+      </pages>
+    </template>
+  </customcert>
+</activity>

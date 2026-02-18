@@ -1,0 +1,1367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="167483">
+    <contenthash>849497cf745b49f796712972530919f3f470078d</contenthash>
+    <contextid>166052</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6930</itemid>
+    <filepath>/</filepath>
+    <filename>real_number.jpg</filename>
+    <userid>13</userid>
+    <filesize>8271</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>real_number.jpg</source>
+    <author>$@NULL@$</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167484">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166052</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6930</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770715576</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167485">
+    <contenthash>8917f394e3a141694cb880da70149386246dffb4</contenthash>
+    <contextid>166052</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6931</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>13</userid>
+    <filesize>134632</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167486">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166052</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6931</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770709457</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167487">
+    <contenthash>d75d621dc90fe8ea1cf04c09e7af12b436adbb0c</contenthash>
+    <contextid>166052</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6931</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>13</userid>
+    <filesize>166807</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167488">
+    <contenthash>3f63852c3c4c1e1aeecdac3352c216873fb6adc1</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>KMS_logo.jpeg</filename>
+    <userid>13</userid>
+    <filesize>92744</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>KMS_logo.jpeg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167489">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770818489</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167490">
+    <contenthash>1d5972c24a154719a52e865d82af438cc80c772e</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>INNODEMS_logo.png</filename>
+    <userid>13</userid>
+    <filesize>189461</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>INNODEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167491">
+    <contenthash>9a66f75a9f6bbbf7937c7b0c51ec7d312cb5fcea</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>IDEMS_logo.png</filename>
+    <userid>13</userid>
+    <filesize>136305</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>IDEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167492">
+    <contenthash>1c2f4e7c7a0a5f09f7684a677f92e49562fbc3fb</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>participant line.svg</filename>
+    <userid>13</userid>
+    <filesize>178</filesize>
+    <mimetype>image/svg+xml</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>participant line.svg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167493">
+    <contenthash>cdc00eeb24e5b6c48b02893efd5231033fedb2a9</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>mike signature.jpeg</filename>
+    <userid>13</userid>
+    <filesize>5850</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>mike signature.jpeg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167494">
+    <contenthash>ec85f7303f086fb217d178185d4078564d0fbf6b</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>zach signature.png</filename>
+    <userid>13</userid>
+    <filesize>4823</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>zach signature.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167495">
+    <contenthash>e770c1bb23722223066e9fbf45244cc1a8521237</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>mike_signature_transparent.png</filename>
+    <userid>13</userid>
+    <filesize>2114548</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>mike_signature_transparent.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167496">
+    <contenthash>db0cfc943626df015751ea2679991e1d256e0b99</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>certificate_alignment_297mm_7segments.png</filename>
+    <userid>13</userid>
+    <filesize>2517</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770543499</timemodified>
+    <source>certificate_alignment_297mm_7segments.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167506">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770660685</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167519">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>13</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770543499</timecreated>
+    <timemodified>1770660736</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167763">
+    <contenthash>7997769ee608c3cbbf1ee8ca9024b26147a02854</contenthash>
+    <contextid>166131</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>KMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>2415876</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770659645</timecreated>
+    <timemodified>1770659660</timemodified>
+    <source>KMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167764">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166131</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770659645</timecreated>
+    <timemodified>1770671866</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167765">
+    <contenthash>1d5972c24a154719a52e865d82af438cc80c772e</contenthash>
+    <contextid>166131</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>INNODEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>189461</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770659645</timecreated>
+    <timemodified>1770659660</timemodified>
+    <source>INNODEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167766">
+    <contenthash>9a66f75a9f6bbbf7937c7b0c51ec7d312cb5fcea</contenthash>
+    <contextid>166131</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>IDEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>136305</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770659645</timecreated>
+    <timemodified>1770659660</timemodified>
+    <source>IDEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167819">
+    <contenthash>3a910087b64208ef466e8569fdcf9a5822520d76</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Zero and Negative Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>150325</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660685</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Zero and Negative Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167820">
+    <contenthash>fb7d8709311dc7ee9fa4dee426878e38617ac4a3</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Using Logarithms with Standard Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>153271</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660685</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Using Logarithms with Standard Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167821">
+    <contenthash>eb6d557acc77ae6cc698b2ee7ad6827a37ee76c8</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Zero and Negative Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>147501</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660686</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Zero and Negative Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167822">
+    <contenthash>384e68b58476797f4a046a496e039a75e94b1b08</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Using Logarithms with Standard Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>154066</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660686</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Using Logarithms with Standard Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167823">
+    <contenthash>5b7a669366bb0fd426de8a3825518afa9d990c86</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Multiplying and Dividing Logarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>151375</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660687</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Multiplying and Dividing Logarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167824">
+    <contenthash>b49259446337b2d9fa4ecf276ffb6163a95f3463</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Logarithms notation.pdf</filename>
+    <userid>27125</userid>
+    <filesize>160679</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660687</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Logarithms notation.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167825">
+    <contenthash>d8b0a9931d1e4d12bab821982bf6d7e0ab4742c1</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Laws of Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>152879</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660688</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Laws of Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167826">
+    <contenthash>fe0cda358e99f6464952dcc3153f68a83e937dde</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Expressing Numbers in Index Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>167248</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660688</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Expressing Numbers in Index Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167827">
+    <contenthash>bd4c6a4ebc4c4f462e4b164cc2a48d4300c4d668</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Exploring Logarithms in Real-Life Applications.pdf</filename>
+    <userid>27125</userid>
+    <filesize>159968</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660689</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Exploring Logarithms in Real-Life Applications.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167828">
+    <contenthash>6aa5250db50b958e4ce7df4fbddf10f4ee220f5a</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>149580</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660689</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167829">
+    <contenthash>11878ee4a23f8b07faf19b01187cc9997d682c12</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Applications of Indices in Real-Life situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>156444</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660690</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Applications of Indices in Real-Life situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167830">
+    <contenthash>4b6ad9f01497adc5a095157a55e20772c6c7d12b</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Antilogarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>138362</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660690</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Step by step guide_Antilogarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167831">
+    <contenthash>ed1967da0bdcd11be44dc2623340994d279e909f</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Multiplying and Dividing Logarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>161488</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660691</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Multiplying and Dividing Logarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167832">
+    <contenthash>1c584c34085018d2fc504ab62b6ec6044cbaed18</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Logarithms notation.pdf</filename>
+    <userid>27125</userid>
+    <filesize>150181</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660691</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Logarithms notation.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167833">
+    <contenthash>870dc525a9c8fde0a690c8f8b4c230029a26125a</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Laws of Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>146638</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660692</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Laws of Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167834">
+    <contenthash>622c7a5f2bf9dfbc7ed506be1db61b662bac08f8</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Expressing Numbers in Index Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>157040</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660692</timecreated>
+    <timemodified>1770660717</timemodified>
+    <source>Expressing Numbers in Index Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167835">
+    <contenthash>0d0c1d583c1c6e2ed0afe03e2031ab8212f26ffa</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Exploring Logarithms in Real-Life Applications.pdf</filename>
+    <userid>27125</userid>
+    <filesize>173804</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660693</timecreated>
+    <timemodified>1770660718</timemodified>
+    <source>Exploring Logarithms in Real-Life Applications.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167836">
+    <contenthash>a203d25e3b8f5854f076be5692f20b5b860cb5a6</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>164303</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660693</timecreated>
+    <timemodified>1770660718</timemodified>
+    <source>Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167837">
+    <contenthash>38927fc59f8b02e3f4a6f98e79f0d1d007824c3e</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Applications of Indices in Real-Life situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>165685</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660694</timecreated>
+    <timemodified>1770660718</timemodified>
+    <source>Applications of Indices in Real-Life situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167838">
+    <contenthash>2d208e77347f0fc3a416fe76969a4df62b58a041</contenthash>
+    <contextid>166064</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Antilogarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>149760</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660694</timecreated>
+    <timemodified>1770660718</timemodified>
+    <source>Antilogarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167860">
+    <contenthash>3a910087b64208ef466e8569fdcf9a5822520d76</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Zero and Negative Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>150325</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660736</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Zero and Negative Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167861">
+    <contenthash>fb7d8709311dc7ee9fa4dee426878e38617ac4a3</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Using Logarithms with Standard Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>153271</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660737</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Using Logarithms with Standard Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167862">
+    <contenthash>115d4e2e638982598af58d6afd7307b752cccde4</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Zero and Negative Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>138455</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660737</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Step by step guide_Zero and Negative Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167863">
+    <contenthash>f71ac32542c819c5cc7ad234ce8d11584abf55e1</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Using Logarithms with Standard Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>146164</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660737</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Step by step guide_Using Logarithms with Standard Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167864">
+    <contenthash>3e50a67191195b2dde539d5f9620541558af5ee2</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Multiplying and Dividing Logarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>142708</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660738</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Step by step guide_Multiplying and Dividing Logarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167865">
+    <contenthash>d025bfc78912295315b0e002266a6a4564e5bf36</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Logarithms notation.pdf</filename>
+    <userid>27125</userid>
+    <filesize>151973</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660738</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Step by step guide_Logarithms notation.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167866">
+    <contenthash>98e3415dd0d95f5b6d0bd49be396d6fe8e36af2c</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Laws of Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>144243</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660739</timecreated>
+    <timemodified>1770660760</timemodified>
+    <source>Step by step guide_Laws of Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167867">
+    <contenthash>ffcafb32a9ef09ebaf5807f2510d1970b8ce97d8</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Expressing Numbers in Index Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>158836</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660739</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Step by step guide_Expressing Numbers in Index Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167868">
+    <contenthash>5a766f3dec1eb3036d70b1337fbcce23898dae0f</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Exploring Logarithms in Real-Life Applications.pdf</filename>
+    <userid>27125</userid>
+    <filesize>151214</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660740</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Step by step guide_Exploring Logarithms in Real-Life Applications.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167869">
+    <contenthash>e6fb74f2e8ed9b74367ba6e756bae636845dbd4a</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>141826</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660740</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Step by step guide_Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167870">
+    <contenthash>18424b7ad8f906904214497803cbdfebe69c9161</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Applications of Indices in Real-Life situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>148909</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660741</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Step by step guide_Applications of Indices in Real-Life situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167871">
+    <contenthash>fcc9a40d6dd89ac394e9d082b516bdb7d96fbb75</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Antilogarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>129629</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660741</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Step by step guide_Antilogarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167872">
+    <contenthash>ed1967da0bdcd11be44dc2623340994d279e909f</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Multiplying and Dividing Logarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>161488</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660742</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Multiplying and Dividing Logarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167873">
+    <contenthash>49d0bb092ee1105538821acd27f554213c7faeca</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Logarithms notation.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134306</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660742</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Logarithms notation.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167874">
+    <contenthash>b06f69a5c0e1a7336be5d0a5759ac21f32771d7f</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Laws of Indices.pdf</filename>
+    <userid>27125</userid>
+    <filesize>130490</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660743</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Laws of Indices.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167875">
+    <contenthash>b00e05b395957c5609fc247f6d28978c07138b8b</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Expressing Numbers in Index Form.pdf</filename>
+    <userid>27125</userid>
+    <filesize>140212</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660743</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Expressing Numbers in Index Form.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167876">
+    <contenthash>85fe9177e916a74b342886fc18fb9f4898383216</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Exploring Logarithms in Real-Life Applications.pdf</filename>
+    <userid>27125</userid>
+    <filesize>157193</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660743</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Exploring Logarithms in Real-Life Applications.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167877">
+    <contenthash>20060c59e04fdf7c566aca2312621a5eb46b0b6a</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>147412</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660744</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Determining Common Logarithms Using Mathematical Tables and Calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167878">
+    <contenthash>c84d8d6437d215914a3632aa6564c4780a264dd8</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Applications of Indices in Real-Life situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>149804</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660744</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Applications of Indices in Real-Life situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167879">
+    <contenthash>513aa0d42a93b6dd98065dbabb1f35e2a4b61826</contenthash>
+    <contextid>166065</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Antilogarithms.pdf</filename>
+    <userid>27125</userid>
+    <filesize>133143</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770660745</timecreated>
+    <timemodified>1770660761</timemodified>
+    <source>Antilogarithms.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167905">
+    <contenthash>f178ea825c54fa72ad96c62f3f7be1c877d5947e</contenthash>
+    <contextid>166131</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>indices.png</filename>
+    <userid>27125</userid>
+    <filesize>454882</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770671917</timecreated>
+    <timemodified>1770671920</timemodified>
+    <source>indices.png</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="168178">
+    <contenthash>0fb9ccf7d677d7d81dfe2d0e7dc93f03d3fa6a5f</contenthash>
+    <contextid>166052</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>David signature.png</filename>
+    <userid>27125</userid>
+    <filesize>2187202</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770754008</timecreated>
+    <timemodified>1770754021</timemodified>
+    <source>David signature.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>

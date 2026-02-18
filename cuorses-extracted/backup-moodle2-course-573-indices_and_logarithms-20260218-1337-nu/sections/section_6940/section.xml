@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section id="6940">
+  <number>9</number>
+  <name>↩️ Antilogarithms</name>
+  <summary>&lt;!-- ===============  SECTION CONTAINER  =============== --&gt;
+&lt;div style="background:#f7fbfc; border:1px solid #d9e7ec; border-radius:16px; overflow:hidden; margin:10px 0;"&gt;
+
+  &lt;!-- ===============  HEADER BANNER  =============== --&gt;
+  &lt;div style="background:#67A3B3; color:white; padding:20px;"&gt;
+    &lt;div style="font-size:24px; font-weight:800; line-height:1.2;"&gt;
+      🧮 Antilogarithms
+    &lt;/div&gt;
+    &lt;div style="font-size:14px; opacity:0.95; margin-top:6px;"&gt;
+      A practical, discovery-based Grade 10 lesson on number properties.
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;!-- ===============  MAIN CONTENT AREA  =============== --&gt;
+  &lt;div style="padding:20px; color:#2f3a3d; font-size:15px; line-height:1.5;"&gt;
+
+    &lt;!-- QUICK LINKS --&gt;
+    &lt;div style="margin-bottom:18px;"&gt;
+      &lt;div style="font-weight:700; margin-bottom:8px; color:#0b5565;"&gt;
+        Quick Access
+      &lt;/div&gt;
+
+      &lt;!-- WITH DEVICES --&gt;
+      &lt;div style="background:white; border:1px solid #e3eef2; border-radius:12px; padding:14px; margin-bottom:12px;"&gt;
+        &lt;div style="margin-bottom:10px; color:#0b5565;"&gt;
+          💻 Students will have access to devices
+        &lt;/div&gt;
+
+        &lt;div style="display:flex; flex-wrap:wrap; gap:10px;"&gt;
+          &lt;a href="$@PLUGINFILEBYCONTEXT*166064@$/mod_folder/content/0/Antilogarithms.pdf?forcedownload=1"
+             target="_blank" rel="noopener noreferrer"
+             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
+            📄 Lesson Plan (digital)
+          &lt;/a&gt;
+
+          &lt;a href="$@PLUGINFILEBYCONTEXT*166064@$/mod_folder/content/0/Step%20by%20step%20guide_Antilogarithms.pdf?forcedownload=1"
+             target="_blank" rel="noopener noreferrer"
+             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
+            🧑‍🏫 Step-by-step guide (digital)
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+
+      &lt;!-- WITHOUT DEVICES --&gt;
+      &lt;div style="background:white; border:1px solid #e3eef2; border-radius:12px; padding:14px;"&gt;
+        &lt;div style="margin-bottom:10px; color:#0b5565;"&gt;
+          📝 Students will &lt;strong&gt;NOT&lt;/strong&gt; have access to devices
+        &lt;/div&gt;
+
+        &lt;div style="display:flex; flex-wrap:wrap; gap:10px;"&gt;
+          &lt;a href="$@PLUGINFILEBYCONTEXT*166065@$/mod_folder/content/0/Antilogarithms.pdf?forcedownload=1"
+             target="_blank" rel="noopener noreferrer"
+             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
+            📄 Lesson Plan (print-friendly)
+          &lt;/a&gt;
+
+          &lt;a href="$@PLUGINFILEBYCONTEXT*166065@$/mod_folder/content/0/Step%20by%20step%20guide_Antilogarithms.pdf?forcedownload=1"
+             target="_blank" rel="noopener noreferrer"
+             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
+            🧑‍🏫 Step-by-step guide (offline)
+          &lt;/a&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;!-- IN THIS SECTION --&gt;
+    &lt;div style="background:white; border:1px solid #e3eef2; border-radius:12px; padding:14px; margin-bottom:14px;"&gt;
+      &lt;div style="font-weight:800; margin-bottom:8px; color:#0b5565;"&gt;
+        In this section
+      &lt;/div&gt;
+      &lt;ul style="margin:0; padding-left:18px;"&gt;
+        &lt;li&gt;Evaluate antilogarithms using tables.&lt;/li&gt;
+        &lt;li&gt;Compare the use of calculators and tables in evaluating antilogarithms.&lt;/li&gt;
+        &lt;li&gt;Use the digital textbook checkpoint to practice with instant feedback.&lt;/li&gt;
+        &lt;li&gt;Share one classroom strategy or real-life example in the discussion forum.&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+
+    &lt;!-- ===============  DISCUSSION BOX  =============== --&gt;
+    &lt;div style="background:#fff6e8; border:1px solid #ffe1b5; border-radius:14px; padding:16px; margin-bottom:20px;"&gt;
+      &lt;div style="font-weight:900; color:#7a4b00; margin-bottom:8px;"&gt;
+        💬 Discussion Forum
+      &lt;/div&gt;
+
+      &lt;p style="margin:0 0 12px 0;"&gt;
+        Post at least once and respond to at least two colleagues.
+      &lt;/p&gt;
+
+      &lt;a href="$@FORUMVIEWBYID*22551@$"
+         target="_blank" rel="noopener noreferrer"
+         style="display:inline-flex; align-items:center; gap:6px; padding:10px 12px; border-radius:10px; background:white; border:1px solid #ffe1b5; text-decoration:none; color:#7a4b00; font-weight:800;"&gt;
+        💬 Open discussion forum
+      &lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</summary>
+  <summaryformat>1</summaryformat>
+  <sequence>22551</sequence>
+  <visible>1</visible>
+  <availabilityjson>{"op":"&amp;","c":[],"showc":[]}</availabilityjson>
+  <component>$@NULL@$</component>
+  <itemid>$@NULL@$</itemid>
+  <timemodified>1770672415</timemodified>
+  <course_format_options id="6575">
+    <format>flexsections</format>
+    <name>collapsed</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="6573">
+    <format>flexsections</format>
+    <name>parent</name>
+    <value>0</value>
+  </course_format_options>
+  <course_format_options id="6574">
+    <format>flexsections</format>
+    <name>visibleold</name>
+    <value>1</value>
+  </course_format_options>
+</section>

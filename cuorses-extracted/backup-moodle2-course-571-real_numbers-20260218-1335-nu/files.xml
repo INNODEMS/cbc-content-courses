@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file id="166934">
+    <contenthash>3f63852c3c4c1e1aeecdac3352c216873fb6adc1</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>KMS_logo.jpeg</filename>
+    <userid>27125</userid>
+    <filesize>92744</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770300704</timecreated>
+    <timemodified>1770300745</timemodified>
+    <source>KMS_logo.jpeg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166935">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770300704</timecreated>
+    <timemodified>1770754839</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166944">
+    <contenthash>1d5972c24a154719a52e865d82af438cc80c772e</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>INNODEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>189461</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770300844</timecreated>
+    <timemodified>1770300860</timemodified>
+    <source>INNODEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166953">
+    <contenthash>9a66f75a9f6bbbf7937c7b0c51ec7d312cb5fcea</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>IDEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>136305</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770300931</timecreated>
+    <timemodified>1770300932</timemodified>
+    <source>IDEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166975">
+    <contenthash>1c2f4e7c7a0a5f09f7684a677f92e49562fbc3fb</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>participant line.svg</filename>
+    <userid>27125</userid>
+    <filesize>178</filesize>
+    <mimetype>image/svg+xml</mimetype>
+    <status>0</status>
+    <timecreated>1770301486</timecreated>
+    <timemodified>1770301488</timemodified>
+    <source>participant line.svg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166996">
+    <contenthash>cdc00eeb24e5b6c48b02893efd5231033fedb2a9</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>mike signature.jpeg</filename>
+    <userid>27125</userid>
+    <filesize>5850</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770301863</timecreated>
+    <timemodified>1770301906</timemodified>
+    <source>mike signature.jpeg</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="166997">
+    <contenthash>ec85f7303f086fb217d178185d4078564d0fbf6b</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>zach signature.png</filename>
+    <userid>27125</userid>
+    <filesize>4823</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770301870</timecreated>
+    <timemodified>1770301906</timemodified>
+    <source>zach signature.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167091">
+    <contenthash>e770c1bb23722223066e9fbf45244cc1a8521237</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>mike_signature_transparent.png</filename>
+    <userid>27125</userid>
+    <filesize>2114548</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770303240</timecreated>
+    <timemodified>1770303248</timemodified>
+    <source>mike_signature_transparent.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167118">
+    <contenthash>db0cfc943626df015751ea2679991e1d256e0b99</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>certificate_alignment_297mm_7segments.png</filename>
+    <userid>27125</userid>
+    <filesize>2517</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770303341</timecreated>
+    <timemodified>1770303343</timemodified>
+    <source>certificate_alignment_297mm_7segments.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167171">
+    <contenthash>849497cf745b49f796712972530919f3f470078d</contenthash>
+    <contextid>165404</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6903</itemid>
+    <filepath>/</filepath>
+    <filename>real_number.jpg</filename>
+    <userid>3738</userid>
+    <filesize>8271</filesize>
+    <mimetype>image/jpeg</mimetype>
+    <status>0</status>
+    <timecreated>1770310357</timecreated>
+    <timemodified>1770310412</timemodified>
+    <source>real_number.jpg</source>
+    <author>$@NULL@$</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167172">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>165404</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6903</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>3738</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770310412</timecreated>
+    <timemodified>1770724943</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167223">
+    <contenthash>7997769ee608c3cbbf1ee8ca9024b26147a02854</contenthash>
+    <contextid>166028</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>KMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>2415876</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770328470</timecreated>
+    <timemodified>1770328540</timemodified>
+    <source>KMS logo transparent.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>1</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167224">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166028</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770328470</timecreated>
+    <timemodified>1770328540</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167225">
+    <contenthash>1d5972c24a154719a52e865d82af438cc80c772e</contenthash>
+    <contextid>166028</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>INNODEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>189461</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770328483</timecreated>
+    <timemodified>1770328540</timemodified>
+    <source>INNODEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167226">
+    <contenthash>9a66f75a9f6bbbf7937c7b0c51ec7d312cb5fcea</contenthash>
+    <contextid>166028</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>IDEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>136305</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770328518</timecreated>
+    <timemodified>1770328540</timemodified>
+    <source>IDEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167229">
+    <contenthash>1d5972c24a154719a52e865d82af438cc80c772e</contenthash>
+    <contextid>166029</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>INNODEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>189461</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770328630</timecreated>
+    <timemodified>1770328633</timemodified>
+    <source>Server files: Schools/Kenyan/Grade 10/Numbers and Algebra/CBE topic delivery: Real Numbers/Logo KMS (File)/Files and subfolders/INNODEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>1</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167230">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166029</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770328630</timecreated>
+    <timemodified>1770328633</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167233">
+    <contenthash>9a66f75a9f6bbbf7937c7b0c51ec7d312cb5fcea</contenthash>
+    <contextid>166030</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>IDEMS_logo.png</filename>
+    <userid>27125</userid>
+    <filesize>136305</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770328652</timecreated>
+    <timemodified>1770328654</timemodified>
+    <source>Server files: Schools/Kenyan/Grade 10/Numbers and Algebra/CBE topic delivery: Real Numbers/Logo KMS (File)/Files and subfolders/IDEMS_logo.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>1</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167234">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166030</contextid>
+    <component>mod_resource</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770328652</timecreated>
+    <timemodified>1770328654</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167274">
+    <contenthash>8917f394e3a141694cb880da70149386246dffb4</contenthash>
+    <contextid>165404</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6907</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134632</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770330803</timecreated>
+    <timemodified>1770330855</timemodified>
+    <source>Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167275">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>165404</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6907</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770330803</timecreated>
+    <timemodified>1770725474</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167276">
+    <contenthash>d75d621dc90fe8ea1cf04c09e7af12b436adbb0c</contenthash>
+    <contextid>165404</contextid>
+    <component>course</component>
+    <filearea>section</filearea>
+    <itemid>6907</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>166807</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770330849</timecreated>
+    <timemodified>1770330855</timemodified>
+    <source>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167297">
+    <contenthash>8917f394e3a141694cb880da70149386246dffb4</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134632</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331301</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167298">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770331301</timecreated>
+    <timemodified>1770335410</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167299">
+    <contenthash>d75d621dc90fe8ea1cf04c09e7af12b436adbb0c</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>166807</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331302</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167300">
+    <contenthash>1ff69816555864dc094a7266419dff46dd22c93c</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying real numbers as rational and irrational in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134283</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331303</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Classifying real numbers as rational and irrational in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167301">
+    <contenthash>a3e43f6b354230ee0f19e905254ac1637f15c7a1</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as prime and composite in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>148189</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331303</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Classifying whole numbers as prime and composite in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167302">
+    <contenthash>5f57ceba8f41680b1e210a862dd825304fd63605</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using division.pdf</filename>
+    <userid>27125</userid>
+    <filesize>131299</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331304</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Finding reciprocals of real numbers using division.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167303">
+    <contenthash>505eb18d6b2caaa70c8dadac800086caa8a04008</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using mathematical calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>137556</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331304</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Finding reciprocals of real numbers using mathematical calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167304">
+    <contenthash>a3a64afabf2219ffe74adff8281f834d9fc6c41e</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using mathematical tables and calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>140186</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331305</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Finding reciprocals of real numbers using mathematical tables and calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167305">
+    <contenthash>b3544ebc6ee2b9b67a009981150b4022179abcde</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying real numbers as rational and irrational in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>153131</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331305</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Classifying real numbers as rational and irrational in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167306">
+    <contenthash>04616ce692897cbd9480a403dfcc66679a45735f</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as prime and composite in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>170223</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331306</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Classifying whole numbers as prime and composite in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167307">
+    <contenthash>679027adb99d5ba43a8f93860e59bf668ce1d6d8</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using division.pdf</filename>
+    <userid>27125</userid>
+    <filesize>162015</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331307</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using division.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167309">
+    <contenthash>ea79670d681e7c7c04eadad71f38efeed97685ca</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using mathematical calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>157470</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331308</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using mathematical calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167310">
+    <contenthash>eca1bfa8d904b0633b7819913fa8f16da8ad86be</contenthash>
+    <contextid>166031</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using mathematical tables and calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>159567</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770331308</timecreated>
+    <timemodified>1770331314</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using mathematical tables and calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167355">
+    <contenthash>3df8fd685cae27038fd331a71373eafb0da5caed</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying real numbers as rational and irrational in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134179</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334645</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Classifying real numbers as rational and irrational in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167356">
+    <contenthash>da39a3ee5e6b4b0d3255bfef95601890afd80709</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>.</filename>
+    <userid>27125</userid>
+    <filesize>0</filesize>
+    <mimetype>$@NULL@$</mimetype>
+    <status>0</status>
+    <timecreated>1770334645</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>$@NULL@$</source>
+    <author>$@NULL@$</author>
+    <license>$@NULL@$</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167357">
+    <contenthash>c0985b27cf86317a0774c5c39176e738dcb593d2</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>134369</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334646</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167358">
+    <contenthash>5f8ca60a6c157d3f43262ffb5a4f1fa78bb3dffd</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Classifying whole numbers as prime and composite in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>147906</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334647</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Classifying whole numbers as prime and composite in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167359">
+    <contenthash>f3de76c2c8c5a1846f2f3c2e455e7f9919cdc945</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using division.pdf</filename>
+    <userid>27125</userid>
+    <filesize>131286</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334647</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Finding reciprocals of real numbers using division.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167360">
+    <contenthash>08a8a0a4ff766e39008cfdf53637710629e0a9bb</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using mathematical calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>137783</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334647</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Finding reciprocals of real numbers using mathematical calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167361">
+    <contenthash>43968091e3b450f3217505695f2f3e326642c9f1</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Finding reciprocals of real numbers using mathematical tables and calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>140538</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334648</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Finding reciprocals of real numbers using mathematical tables and calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167362">
+    <contenthash>bc06b52e69b22587011ded8562b7d93f42fbdb32</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying real numbers as rational and irrational in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>145510</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334648</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Classifying real numbers as rational and irrational in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167363">
+    <contenthash>55c0a4bd66e691cc3b51baab27d4b685ac05c22e</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>146814</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334649</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Classifying whole numbers as odd, even in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167364">
+    <contenthash>9927df3d16717c59c5ecb60301199e698950c408</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Classifying whole numbers as prime and composite in different situations.pdf</filename>
+    <userid>27125</userid>
+    <filesize>149751</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334650</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Classifying whole numbers as prime and composite in different situations.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167365">
+    <contenthash>a0768a8d99a55d92b4c12855cf71aedc7d258440</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using division.pdf</filename>
+    <userid>27125</userid>
+    <filesize>141315</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334650</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using division.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167366">
+    <contenthash>b76420d7b45c3efa03872a1a99481c2dd2202efd</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using mathematical calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>136935</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334650</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using mathematical calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="167367">
+    <contenthash>3c702c02e6afb7e8d3a6d5b99a989e5ab245e6de</contenthash>
+    <contextid>166033</contextid>
+    <component>mod_folder</component>
+    <filearea>content</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>Step by step guide_Finding reciprocals of real numbers using mathematical tables and calculators.pdf</filename>
+    <userid>27125</userid>
+    <filesize>139734</filesize>
+    <mimetype>application/pdf</mimetype>
+    <status>0</status>
+    <timecreated>1770334651</timecreated>
+    <timemodified>1770334656</timemodified>
+    <source>Step by step guide_Finding reciprocals of real numbers using mathematical tables and calculators.pdf</source>
+    <author>Santiago Borio</author>
+    <license>allrightsreserved</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+  <file id="168239">
+    <contenthash>0fb9ccf7d677d7d81dfe2d0e7dc93f03d3fa6a5f</contenthash>
+    <contextid>165404</contextid>
+    <component>mod_customcert</component>
+    <filearea>image</filearea>
+    <itemid>0</itemid>
+    <filepath>/</filepath>
+    <filename>David signature.png</filename>
+    <userid>27125</userid>
+    <filesize>2187202</filesize>
+    <mimetype>image/png</mimetype>
+    <status>0</status>
+    <timecreated>1770754704</timecreated>
+    <timemodified>1770754707</timemodified>
+    <source>David signature.png</source>
+    <author>Santiago Borio</author>
+    <license>unknown</license>
+    <sortorder>0</sortorder>
+    <repositorytype>$@NULL@$</repositorytype>
+    <repositoryid>$@NULL@$</repositoryid>
+    <reference>$@NULL@$</reference>
+  </file>
+</files>
