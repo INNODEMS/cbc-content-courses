@@ -6,6 +6,10 @@ This repository is for editing and version controlling Moodle course content.
 
 - Spearate the repo in terms of content and scripts. Scripts should be in an IDEMS repo, content should remain in an INNODEMS repo
 - Figure out how to make them talk to each other so that scripts from the IDEMS repo can be read and launched from the INNODEMS repo once separated
+- Write script that reads from the spreadsheet and generates a json with all the data
+- Write a script that populates courses with the data from the json
+- Write a script that compresses a course into an mbz file that is compatible with course files in Moodle
+
 
 ## Workflow
 
