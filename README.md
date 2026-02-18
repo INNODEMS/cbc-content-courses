@@ -31,7 +31,7 @@ python scripts/extract_mbz.py backup-moodle2-course-571-real_numbers-20260218-13
 ```
 
 The script will:
-- Extract the specified MBZ file to `cuorses-extracted/<course-name>/`
+- Extract the specified MBZ file to `courses-extracted/<course-name>/`
 - Overwrite any existing folder with the same name
 - Support ZIP, TAR.GZ, and GZIP archive formats
 
@@ -39,7 +39,7 @@ The script will:
 
 ### 3. Edit Course Content
 
-Once extracted, you can edit the course files in `cuorses-extracted/`:
+Once extracted, you can edit the course files in `courses-extracted/`:
 - **moodle_backup.xml** - Main course structure and metadata
 - **activities/** - Course activities and resources
 - **sections/** - Course sections
@@ -54,7 +54,7 @@ Commit your changes to git to track course modifications over time.
 
 ```
 ├── raw-mbz-files/          # Original MBZ backup files
-├── cuorses-extracted/      # Extracted course content (editable)
+├── courses-extracted/      # Extracted course content (editable)
 └── scripts/                # Utility scripts
     └── extract_mbz.py      # Extraction script
 ```
