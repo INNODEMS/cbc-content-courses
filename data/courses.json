@@ -22,7 +22,7 @@
       "section": "Real Numbers",
       "section_filecase": "real-numbers",
       "section_number": 1,
-      "student_section_url_slug": "sec-real-numbers",
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-real-numbers.html",
       "course_logo_file": "real-numbers.jpg",
       "learning_outcomes": [
     {
@@ -62,7 +62,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_even-and-odd-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-1"]
+          "learning_outcome_ids": ["lo-184050140f"]
         },
         {
           "subsection": "Classification of Numbers",
@@ -75,7 +75,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_prime-and-composite-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-1"]
+          "learning_outcome_ids": ["lo-184050140f"]
         },
         {
           "subsection": "Classification of Numbers",
@@ -88,7 +88,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_rational-and-irrational-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-2"]
+          "learning_outcome_ids": ["lo-ddf82c3fb4"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -101,7 +101,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-division.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-3"]
+          "learning_outcome_ids": ["lo-f2638d1c14"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -114,7 +114,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-tables-and-calculators.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-4"]
+          "learning_outcome_ids": ["lo-d523e28d95"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -127,7 +127,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_using-reciprocals.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-real-numbers-5", "lo-real-numbers-6"]
+          "learning_outcome_ids": ["lo-8abb0f6683", "lo-79ce74e8e8"]
         }
       ]
     }

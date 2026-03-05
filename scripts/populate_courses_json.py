@@ -176,11 +176,9 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
     chapter_number = ask_int("  Chapter number (e.g. 1 for 'Numbers and Algebra')")
     section_number = ask_int("  Section number within the chapter (e.g. 1 for 'Real Numbers')")
 
-    suggested_slug = f"sec-{section_filecase}"
-    student_section_url_slug = ask(
-        "  Student textbook section URL slug",
-        default=suggested_slug
-    )
+    # Student section URL auto-generated from section filecase
+    student_section_url = f"https://innodems.github.io/CBC-Grade-10-Maths/student/sec-{section_filecase}.html"
+    print(f"  Student section URL (auto): {student_section_url}")
 
     detected_logo = find_course_logo(section_filecase)
     course_logo_file = ask(
@@ -263,7 +261,7 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
         "section":                  section,
         "section_filecase":         section_filecase,
         "section_number":           section_number,
-        "student_section_url_slug": student_section_url_slug,
+        "student_section_url":      student_section_url,
         "course_logo_file":         course_logo_file,
         "learning_outcomes":        learning_outcomes,
         "lessons":                  lessons,
