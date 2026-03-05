@@ -186,10 +186,9 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
         default=detected_logo or f"{section_filecase}.jpg"
     )
 
-    moodle_course_folder = ask(
-        "  Moodle course folder name (in courses-extracted/)",
-        default=f"backup-moodle2-course-{moodle_course_id}-{section_filecase}-YYYYMMDD-HHMM-nu"
-    )
+    # Auto-generate course folder name from course ID and section filecase
+    moodle_course_folder = f"backup-moodle2-course-{moodle_course_id}-{section_filecase}"
+    print(f"  Moodle course folder (auto): {moodle_course_folder}")
 
     # -- Build learning outcomes (deduplicated, from all LO columns)
     lo_texts_seen = {}  # description → id (preserves order, deduplicates)
@@ -209,10 +208,16 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
         print(f"    [{lo['id']}] {lo['description']}")
 
     # -- Build lessons
+    # Auto-generate placeholder IDs starting from a large base.
+    # These are reassigned by Moodle on restore, so exact values don't matter —
+    # they just need to be internally consistent within the backup.
+    SECTION_ID_BASE = 100000
+    FORUM_ID_BASE   = 101000
+
     lessons = []
     n = len(rows)
-    print(f"\n  Now entering IDs for each of the {n} lesson(s).")
-    print("  (These come from the Moodle course XML files.)\n")
+    print(f"\n  Auto-generating placeholder IDs for {n} lesson(s).")
+    print(f"  (section IDs from {SECTION_ID_BASE}, forum IDs from {FORUM_ID_BASE} — reassigned on restore)\n")
 
     for i, row in enumerate(rows, 1):
         # Determine label (deepest level)
@@ -222,10 +227,9 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
         subsection_filecase    = row.get("Subsection Filecase", "").strip() or None
         label = subsubsection or subsection
 
-        print(f"  Lesson {i}/{n}: {label}")
-
-        moodle_section_id = ask_int("    moodle_section_id")
-        forum_id          = ask_int("    forum_id")
+        moodle_section_id = SECTION_ID_BASE + i
+        forum_id          = FORUM_ID_BASE + i
+        print(f"  Lesson {i}/{n}: {label} → section_id={moodle_section_id}, forum_id={forum_id}")
 
         # LO IDs for this lesson
         lesson_lo_ids = []
