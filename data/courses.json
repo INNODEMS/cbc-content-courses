@@ -1,5 +1,31 @@
 {
   "lesson_plan_base_url": "https://innodems.github.io/CBC-Grade-10-Maths/external/lesson_plans/",
+  "learning_outcomes": [
+    {
+      "id": "lo-real-numbers-1",
+      "description": "Classify whole numbers as odd, even, prime and composite in different situations"
+    },
+    {
+      "id": "lo-real-numbers-2",
+      "description": "Classify real numbers as rational and irrational in different situations"
+    },
+    {
+      "id": "lo-real-numbers-3",
+      "description": "Determine the reciprocal of real numbers by division"
+    },
+    {
+      "id": "lo-real-numbers-4",
+      "description": "Determine the reciprocal of real numbers by use of mathematical tables and calculators"
+    },
+    {
+      "id": "lo-real-numbers-5",
+      "description": "Apply reciprocal of real numbers in mathematical computations"
+    },
+    {
+      "id": "lo-real-numbers-6",
+      "description": "Promote the use of real numbers in day-to-day activities"
+    }
+  ],
   "courses": [
     {
       "moodle_course_id": 571,
@@ -20,16 +46,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_even-and-odd-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Classify whole numbers as odd, even, prime and composite in different situations"
-          ],
-          "bullet_points": [
-            "Sort numbers (1\u2013100) into odd and even, then look for patterns.",
-            "From the sorted list, identify even and odd numbers (explain why the number 2 is special).",
-            "Discuss how a number is classified as even or odd.",
-            "Brainstorm real-life examples where these number classifications are found.",
-            "Use the digital textbook checkpoint to practice with instant feedback."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-1"]
         },
         {
           "subsection": "Classification of Numbers",
@@ -42,17 +59,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_prime-and-composite-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Classify whole numbers as odd, even, prime and composite in different situations"
-          ],
-          "bullet_points": [
-            "Sort numbers (1\u2013100) into odd and even, then look for patterns.",
-            "From the sorted list, identify prime and composite numbers.",
-            "Discuss how a number is classified as prime or composite.",
-            "Brainstorm real-life examples where these number classifications are found.",
-            "Use the digital textbook checkpoint to practice with instant feedback.",
-            "Share one classroom strategy or real-life example in the discussion forum."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-1"]
         },
         {
           "subsection": "Classification of Numbers",
@@ -65,19 +72,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_rational-and-irrational-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Classify real numbers as rational and irrational in different situations"
-          ],
-          "bullet_points": [
-            "Choose any pair of natural numbers between 1 and 10 and create at least two fractions: one proper and one improper.",
-            "Use a calculator to divide each fraction and record the decimal value.",
-            "Choose any set of natural numbers between 1 and 20 and write each number as a square root.",
-            "Classify fractions, decimals, and square roots as either rational or irrational.",
-            "Discuss how a number is classified as rational or irrational.",
-            "Brainstorm real-life examples where these number classifications are found.",
-            "Use the digital textbook checkpoint to practice with instant feedback.",
-            "Share one classroom strategy or real-life example in the discussion forum."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-2"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -90,17 +85,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-division.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Determine the reciprocal of real numbers by division"
-          ],
-          "bullet_points": [
-            "Construct fractions and their reciprocals.",
-            "From the sorted list, identify prime and composite numbers.",
-            "Finding reciprocals of numbers using division.",
-            "Construct reciprocals of real numbers.",
-            "Use the digital textbook checkpoint to practice with instant feedback.",
-            "Share one classroom strategy or real-life example in the discussion forum."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-3"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -113,14 +98,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-tables-and-calculators.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Determine the reciprocal of real numbers by use of mathematical tables and calculators"
-          ],
-          "bullet_points": [
-            "Evaluate reciprocal of numbers using calculators.",
-            "Use the digital textbook checkpoint to practice with instant feedback.",
-            "Share one classroom strategy or real-life example in the discussion forum."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-4"]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -133,16 +111,7 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_using-reciprocals.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_objectives": [
-            "Apply reciprocal of real numbers in mathematical computations",
-            "Promote the use of real numbers in day-to-day activities"
-          ],
-          "bullet_points": [
-            "Evaluate reciprocal of numbers using tables.",
-            "Compare the use of calculators and tables in evaluating reciprocals of numbers.",
-            "Use the digital textbook checkpoint to practice with instant feedback.",
-            "Share one classroom strategy or real-life example in the discussion forum."
-          ]
+          "learning_outcome_ids": ["lo-real-numbers-5", "lo-real-numbers-6"]
         }
       ]
     }
