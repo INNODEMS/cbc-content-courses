@@ -24,44 +24,18 @@
         Quick Access
       &lt;/div&gt;
 
-      &lt;!-- WITH DEVICES --&gt;
-      &lt;div style="background:white; border:1px solid #e3eef2; border-radius:12px; padding:14px; margin-bottom:12px;"&gt;
-        &lt;div style="margin-bottom:10px; color:#0b5565;"&gt;
-          💻 Students will have access to devices
-        &lt;/div&gt;
-
-        &lt;div style="display:flex; flex-wrap:wrap; gap:10px;"&gt;
-          &lt;a href="$@PLUGINFILEBYCONTEXT*166031@$/mod_folder/content/0/Classifying%20whole%20numbers%20as%20prime%20and%20composite%20in%20different%20situations.pdf?forcedownload=1"
-             target="_blank" rel="noopener"
-             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
-            📄 Lesson Plan (digital)
-          &lt;/a&gt;
-
-          &lt;a href="$@PLUGINFILEBYCONTEXT*166031@$/mod_folder/content/0/Step%20by%20step%20guide_Classifying%20whole%20numbers%20as%20prime%20and%20composite%20in%20different%20situations.pdf?forcedownload=1"
-             target="_blank" rel="noopener"
-             style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
-            🧑‍🏫 Step-by-step guide (digital)
-          &lt;/a&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-
-      &lt;!-- WITHOUT DEVICES --&gt;
       &lt;div style="background:white; border:1px solid #e3eef2; border-radius:12px; padding:14px;"&gt;
-        &lt;div style="margin-bottom:10px; color:#0b5565;"&gt;
-          📝 Students will &lt;strong&gt;NOT&lt;/strong&gt; have access to devices
-        &lt;/div&gt;
-
         &lt;div style="display:flex; flex-wrap:wrap; gap:10px;"&gt;
-          &lt;a href="$@PLUGINFILEBYCONTEXT*166033@$/mod_folder/content/0/Classifying%20whole%20numbers%20as%20prime%20and%20composite%20in%20different%20situations.pdf?forcedownload=1"
+          &lt;a href="#"
              target="_blank" rel="noopener"
              style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
-            📄 Lesson Plan (print-friendly)
+            📄 Lesson Plan
           &lt;/a&gt;
 
-          &lt;a href="$@PLUGINFILEBYCONTEXT*166033@$/mod_folder/content/0/Step%20by%20step%20guide_Classifying%20whole%20numbers%20as%20prime%20and%20composite%20in%20different%20situations.pdf?forcedownload=1"
+          &lt;a href="#"
              target="_blank" rel="noopener"
              style="padding:10px 12px; border-radius:10px; background:#f7fbfc; border:1px solid #d9e7ec; text-decoration:none; color:#0b5565; font-weight:700;"&gt;
-            🧑‍🏫 Step-by-step guide (offline)
+            🧑‍🏫 Step-by-step guide
           &lt;/a&gt;
         &lt;/div&gt;
       &lt;/div&gt;
