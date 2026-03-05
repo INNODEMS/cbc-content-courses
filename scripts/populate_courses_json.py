@@ -181,10 +181,11 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
     print(f"  Student section URL (auto): {student_section_url}")
 
     detected_logo = find_course_logo(section_filecase)
-    course_logo_file = ask(
-        "  Course logo filename (in assets/course-logos/)",
+    _logo_input = ask(
+        "  Course logo filename (in assets/course-logos/, or 'none' to leave blank)",
         default=detected_logo or f"{section_filecase}.jpg"
     )
+    course_logo_file = None if _logo_input.lower() == "none" else _logo_input
 
     # Auto-generate course folder name from course ID and section filecase
     moodle_course_folder = f"backup-moodle2-course-{moodle_course_id}-{section_filecase}"
