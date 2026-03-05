@@ -96,46 +96,6 @@
           <directory>activities/customcert_22514</directory>
           <insubsection></insubsection>
         </activity>
-        <activity>
-          <moduleid>22531</moduleid>
-          <sectionid>6929</sectionid>
-          <modulename>resource</modulename>
-          <title>Logo KMS</title>
-          <directory>activities/resource_22531</directory>
-          <insubsection></insubsection>
-        </activity>
-        <activity>
-          <moduleid>22532</moduleid>
-          <sectionid>6929</sectionid>
-          <modulename>resource</modulename>
-          <title>INNODEMS logo</title>
-          <directory>activities/resource_22532</directory>
-          <insubsection></insubsection>
-        </activity>
-        <activity>
-          <moduleid>22533</moduleid>
-          <sectionid>6929</sectionid>
-          <modulename>resource</modulename>
-          <title>IDEMS logo</title>
-          <directory>activities/resource_22533</directory>
-          <insubsection></insubsection>
-        </activity>
-        <activity>
-          <moduleid>22534</moduleid>
-          <sectionid>6929</sectionid>
-          <modulename>folder</modulename>
-          <title>pdfs with devices</title>
-          <directory>activities/folder_22534</directory>
-          <insubsection></insubsection>
-        </activity>
-        <activity>
-          <moduleid>22535</moduleid>
-          <sectionid>6929</sectionid>
-          <modulename>folder</modulename>
-          <title>pdfs without devices</title>
-          <directory>activities/folder_22535</directory>
-          <insubsection></insubsection>
-        </activity>
       </activities>
       <sections>
         <section>
@@ -191,13 +151,6 @@
           <sectionid>6921</sectionid>
           <title>🏅 Completion Certificate</title>
           <directory>sections/section_6921</directory>
-          <parentcmid></parentcmid>
-          <modname></modname>
-        </section>
-        <section>
-          <sectionid>6929</sectionid>
-          <title>Files (internal)</title>
-          <directory>sections/section_6929</directory>
           <parentcmid></parentcmid>
           <modname></modname>
         </section>
@@ -504,78 +457,6 @@
         <level>activity</level>
         <activity>customcert_22514</activity>
         <name>customcert_22514_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>section</level>
-        <section>section_6929</section>
-        <name>section_6929_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>section</level>
-        <section>section_6929</section>
-        <name>section_6929_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22531</activity>
-        <name>resource_22531_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22531</activity>
-        <name>resource_22531_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22532</activity>
-        <name>resource_22532_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22532</activity>
-        <name>resource_22532_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22533</activity>
-        <name>resource_22533_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>resource_22533</activity>
-        <name>resource_22533_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>folder_22534</activity>
-        <name>folder_22534_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>folder_22534</activity>
-        <name>folder_22534_userinfo</name>
-        <value>0</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>folder_22535</activity>
-        <name>folder_22535_included</name>
-        <value>1</value>
-      </setting>
-      <setting>
-        <level>activity</level>
-        <activity>folder_22535</activity>
-        <name>folder_22535_userinfo</name>
         <value>0</value>
       </setting>
     </settings>
