@@ -1,6 +1,30 @@
 {
   "lesson_plan_base_url": "https://innodems.github.io/CBC-Grade-10-Maths/external/lesson_plans/",
-  "learning_outcomes": [
+  "facilitators": [
+    {
+      "name": "Dr. Michael Obiero",
+      "email": "obiero@maseno.ac.ke",
+      "phone": "+254737456117"
+    },
+    {
+      "name": "Zachariah Mbasu",
+      "email": "zmbasu@innodems.org",
+      "phone": "+254722124199"
+    }
+  ],
+  "courses": [
+    {
+      "moodle_course_id": 571,
+      "moodle_course_folder": "backup-moodle2-course-571-real_numbers-20260218-1335-nu",
+      "chapter": "Numbers and Algebra",
+      "chapter_filecase": "numbers-and-algebra",
+      "chapter_number": 1,
+      "section": "Real Numbers",
+      "section_filecase": "real-numbers",
+      "section_number": 1,
+      "student_section_url_slug": "sec-real-numbers",
+      "course_logo_file": "real-numbers.jpg",
+      "learning_outcomes": [
     {
       "id": "lo-real-numbers-1",
       "description": "Classify whole numbers as odd, even, prime and composite in different situations"
@@ -25,15 +49,7 @@
       "id": "lo-real-numbers-6",
       "description": "Promote the use of real numbers in day-to-day activities"
     }
-  ],
-  "courses": [
-    {
-      "moodle_course_id": 571,
-      "moodle_course_folder": "backup-moodle2-course-571-real_numbers-20260218-1335-nu",
-      "chapter": "Numbers and Algebra",
-      "chapter_filecase": "numbers-and-algebra",
-      "section": "Real Numbers",
-      "section_filecase": "real-numbers",
+      ],
       "lessons": [
         {
           "subsection": "Classification of Numbers",
