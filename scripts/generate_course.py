@@ -1443,6 +1443,82 @@ def write_archive_index(out_dir: Path, folder_name: str):
 
 # ─── Entry point ─────────────────────────────────────────────────────────────
 
+# ─── Missing-data collection ──────────────────────────────────────────────────
+
+COURSE_LOGOS_DIR = REPO_ROOT / "assets" / "course-logos"
+
+
+def _find_course_logo(section_filecase: str) -> str | None:
+    for ext in ("jpg", "jpeg", "png", "webp", "gif", "svg"):
+        candidate = COURSE_LOGOS_DIR / f"{section_filecase}.{ext}"
+        if candidate.exists():
+            return candidate.name
+    return None
+
+
+def save_courses_json(data: dict):
+    with open(COURSES_JSON, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def collect_missing_data(course: dict, data: dict):
+    """
+    Interactively fill in any fields that cannot be sourced from the CSV:
+      - chapter_number
+      - section_number
+      - course_logo_file
+
+    Saves answers back to courses.json immediately so the user is never
+    asked the same question twice.
+    """
+    changed = False
+    section  = course["section"]
+    chapter  = course["chapter"]
+
+    if course.get("chapter_number") is None:
+        while True:
+            raw = input(f"  Chapter number for '{chapter}' (e.g. 1, 4, 5): ").strip()
+            try:
+                course["chapter_number"] = int(raw); changed = True; break
+            except ValueError:
+                print("    Please enter a whole number.")
+
+    if course.get("section_number") is None:
+        while True:
+            raw = input(f"  Section number for '{section}' within chapter {course['chapter_number']}: ").strip()
+            try:
+                course["section_number"] = int(raw); changed = True; break
+            except ValueError:
+                print("    Please enter a whole number.")
+
+    if "course_logo_file" not in course or course.get("course_logo_file") is None:
+        detected = _find_course_logo(course["section_filecase"])
+        suggestion = detected or f"{course['section_filecase']}.jpg"
+        raw = input(
+            f"  Logo filename for '{section}' (in assets/course-logos/)\n"
+            f"  [{suggestion}] (or 'none' to skip): "
+        ).strip()
+        if not raw:
+            raw = suggestion
+        course["course_logo_file"] = None if raw.lower() == "none" else raw
+        changed = True
+
+    if changed:
+        # Write the updated course back into the data dict and save.
+        for c in data["courses"]:
+            if c["section_filecase"] == course["section_filecase"]:
+                c.update({
+                    "chapter_number":  course["chapter_number"],
+                    "section_number":  course["section_number"],
+                    "course_logo_file": course["course_logo_file"],
+                })
+                break
+        save_courses_json(data)
+        print(f"  ✓ Saved to courses.json\n")
+
+
+# ─── Main entry point ─────────────────────────────────────────────────────────
+
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     do_compress = "--compress" in sys.argv
@@ -1453,6 +1529,11 @@ def main():
 
     print(f"\nSelected: {course['section']}  ({course['chapter']})")
     print(f"  Lessons: {len(course['lessons'])}")
+
+    # Ask for any data that couldn't come from the CSV
+    print()
+    collect_missing_data(course, data)
+
     print(f"  Logo:    {course.get('course_logo_file') or '(none)'}")
 
     result = generate_course(course, data)

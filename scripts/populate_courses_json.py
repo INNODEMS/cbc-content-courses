@@ -1,16 +1,34 @@
 #!/usr/bin/env python3
 """
 populate_courses_json.py
+========================
+Non-interactive sync tool: reads the entire data/automatic-links.csv and
+rebuilds data/courses.json with ALL courses.
 
-Interactive script to populate data/courses.json from data/automatic-links.csv.
 Run from the repo root:
     python scripts/populate_courses_json.py
+
+What it does:
+  - Adds every (Chapter, Section) pair from the CSV as a course entry.
+  - Pulls ALL lesson data from the CSV (paths, LOs, exists flags).
+  - Auto-detects course_logo_file from assets/course-logos/ if a match exists.
+  - PRESERVES any existing non-CSV data already in courses.json:
+      chapter_number, section_number, course_logo_file (if set to null deliberately),
+      moodle_course_folder (if it names a real extracted folder),
+      moodle_section_id / forum_id per lesson (real Moodle IDs for deployed courses).
+
+What it does NOT do:
+  - Ask any questions.
+  - Set chapter_number or section_number (those are not in the CSV).
+  - Modify generate_course.py's job.
+
+Anything null after running this script (chapter_number, section_number,
+course_logo_file) will be requested interactively when running generate_course.py.
 """
 
 import csv
-import json
-import os
 import hashlib
+import json
 from pathlib import Path
 
 # ── Paths ────────────────────────────────────────────────────────────────────
@@ -26,55 +44,11 @@ FACILITATORS = [
     {"name": "Zachariah Mbasu",     "email": "zmbasu@innodems.org",  "phone": "+254722124199"},
 ]
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# ── Helpers ──────────────────────────────────────────────────────────────────
 
 def lo_id(description: str) -> str:
-    """Stable 10-char ID derived from the LO description text."""
+    """Stable 10-char hash ID derived from the LO description text."""
     return "lo-" + hashlib.sha1(description.strip().encode()).hexdigest()[:10]
-
-
-def ask(prompt: str, default: str | None = None) -> str:
-    """Prompt the user, showing a default value they can accept with Enter."""
-    if default:
-        answer = input(f"{prompt} [{default}]: ").strip()
-        return answer if answer else default
-    while True:
-        answer = input(f"{prompt}: ").strip()
-        if answer:
-            return answer
-
-
-def ask_int(prompt: str, default: int | None = None) -> int:
-    if default is not None:
-        while True:
-            raw = input(f"{prompt} [{default}]: ").strip()
-            if not raw:
-                return default
-            try:
-                return int(raw)
-            except ValueError:
-                print("  Please enter a whole number.")
-    else:
-        while True:
-            try:
-                return int(input(f"{prompt}: ").strip())
-            except ValueError:
-                print("  Please enter a whole number.")
-
-
-def choose(prompt: str, options: list[str]) -> int:
-    """Show a numbered list and return the 0-based index of the chosen item."""
-    print(f"\n{prompt}")
-    for i, opt in enumerate(options, 1):
-        print(f"  {i}. {opt}")
-    while True:
-        try:
-            choice = int(input("Enter number: ").strip())
-            if 1 <= choice <= len(options):
-                return choice - 1
-        except ValueError:
-            pass
-        print(f"  Please enter a number between 1 and {len(options)}.")
 
 
 def extract_course_id_from_url(url: str) -> int | None:
@@ -94,7 +68,7 @@ def find_course_logo(section_filecase: str) -> str | None:
     return None
 
 
-# ── Load CSV ──────────────────────────────────────────────────────────────────
+# ── CSV / JSON I/O ────────────────────────────────────────────────────────────
 
 def load_csv() -> list[dict]:
     with open(CSV_PATH, newline="", encoding="utf-8") as f:
@@ -102,142 +76,116 @@ def load_csv() -> list[dict]:
 
 
 def group_by_chapter_section(rows: list[dict]) -> dict:
-    """
-    Returns:
-        {
-            chapter: {
-                section: [rows...]
-            }
-        }
-    preserving CSV order.
-    """
-    result = {}
+    """Return {chapter: {section: [rows...]}} preserving CSV order."""
+    result: dict = {}
     for row in rows:
-        ch = row["Chapter"]
-        se = row["Section"]
-        result.setdefault(ch, {}).setdefault(se, []).append(row)
+        result.setdefault(row["Chapter"], {}).setdefault(row["Section"], []).append(row)
     return result
 
-
-# ── Load / save JSON ──────────────────────────────────────────────────────────
 
 def load_json() -> dict:
     if JSON_PATH.exists():
         with open(JSON_PATH, encoding="utf-8") as f:
             return json.load(f)
-    return {
-        "lesson_plan_base_url": LESSON_PLAN_BASE_URL,
-        "facilitators": FACILITATORS,
-        "courses": [],
-    }
+    return {"lesson_plan_base_url": LESSON_PLAN_BASE_URL, "facilitators": FACILITATORS, "courses": []}
 
 
 def save_json(data: dict):
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
-    print(f"\n✓ Saved → {JSON_PATH}")
+    print(f"✓ Saved → {JSON_PATH}")
 
 
-# ── Build a course entry ──────────────────────────────────────────────────────
+# ── Course builder ────────────────────────────────────────────────────────────
 
-def build_course(rows: list[dict], existing_json: dict) -> dict:
-    """Interactively build a course JSON entry from a list of CSV rows."""
+def build_course_from_csv(rows: list[dict], existing: dict | None) -> dict:
+    """
+    Build a course dict purely from CSV rows, preserving non-CSV fields from
+    any existing JSON entry.
 
-    # -- Representative row for course-level data
-    rep = rows[0]
+    Preserved from existing (never overwritten by this script):
+      chapter_number, section_number
+      course_logo_file  (even if None — None means 'deliberately unset')
+      moodle_course_folder
+      moodle_section_id / forum_id per lesson (matched by subsection+subsubsection filecase)
+    """
+    rep              = rows[0]
     chapter          = rep["Chapter"]
     chapter_filecase = rep["Chapter Filecase"]
     section          = rep["Section"]
     section_filecase = rep["Section Filecase"]
 
-    # -- Check if course already exists in JSON
-    existing_course = next(
-        (c for c in existing_json["courses"]
-         if c.get("section_filecase") == section_filecase),
-        None
+    # ── Course-level fields from CSV ──
+    moodle_course_id    = extract_course_id_from_url(rep.get("Course URL", ""))
+    student_section_url = (
+        f"https://innodems.github.io/CBC-Grade-10-Maths/student/sec-{section_filecase}.html"
     )
-    if existing_course:
-        overwrite = ask(
-            f"\n  Course '{section}' already exists in courses.json. Overwrite? (y/n)",
-            default="n"
-        ).lower()
-        if overwrite != "y":
-            print("  Skipping.")
-            return None
 
-    print(f"\n{'='*60}")
-    print(f"  Populating course: {chapter} → {section}")
-    print(f"{'='*60}")
+    # ── Preserve non-CSV fields from existing entry ──
+    chapter_number = existing.get("chapter_number") if existing else None
+    section_number = existing.get("section_number") if existing else None
 
-    # -- Course-level fields
-    # Moodle course ID is extracted from CSV automatically (informational only — resets on restore)
-    moodle_course_id = extract_course_id_from_url(rep.get("Course URL", ""))
+    # Logo: preserve if key exists in existing (even if value is None).
+    # If the key isn't there at all, try to auto-detect from assets.
+    if existing and "course_logo_file" in existing:
+        course_logo_file = existing["course_logo_file"]
+    else:
+        course_logo_file = find_course_logo(section_filecase)
 
-    chapter_number = ask_int("  Chapter number (e.g. 1 for 'Numbers and Algebra')")
-    section_number = ask_int("  Section number within the chapter (e.g. 1 for 'Real Numbers')")
+    # Folder name: preserve an existing name (could be the real extracted folder);
+    # generate a clean placeholder for new courses.
+    if existing and existing.get("moodle_course_folder"):
+        moodle_course_folder = existing["moodle_course_folder"]
+    else:
+        moodle_course_folder = f"backup-moodle2-course-{moodle_course_id}-{section_filecase}"
 
-    # Student section URL auto-generated from section filecase
-    student_section_url = f"https://innodems.github.io/CBC-Grade-10-Maths/student/sec-{section_filecase}.html"
-    print(f"  Student section URL (auto): {student_section_url}")
-
-    detected_logo = find_course_logo(section_filecase)
-    _logo_input = ask(
-        "  Course logo filename (in assets/course-logos/, or 'none' to leave blank)",
-        default=detected_logo or f"{section_filecase}.jpg"
-    )
-    course_logo_file = None if _logo_input.lower() == "none" else _logo_input
-
-    # Auto-generate course folder name from course ID and section filecase
-    moodle_course_folder = f"backup-moodle2-course-{moodle_course_id}-{section_filecase}"
-    print(f"  Moodle course folder (auto): {moodle_course_folder}")
-
-    # -- Build learning outcomes (deduplicated, from all LO columns)
-    lo_texts_seen = {}  # description → id (preserves order, deduplicates)
+    # ── Learning outcomes (deduplicated, ordered by first appearance) ──
+    lo_texts: dict[str, str] = {}   # description → id
     for row in rows:
         for col in ("LO 1", "LO 2", "LO 3", "LO 4"):
             text = row.get(col, "").strip()
-            if text and text not in lo_texts_seen:
-                lo_texts_seen[text] = lo_id(text)
+            if text and text not in lo_texts:
+                lo_texts[text] = lo_id(text)
 
-    learning_outcomes = [
-        {"id": lid, "description": desc}
-        for desc, lid in lo_texts_seen.items()
-    ]
+    learning_outcomes = [{"id": lid, "description": desc} for desc, lid in lo_texts.items()]
 
-    print(f"\n  Found {len(learning_outcomes)} unique learning outcome(s):")
-    for lo in learning_outcomes:
-        print(f"    [{lo['id']}] {lo['description']}")
+    # ── Lesson ID preservation ──
+    # Build a lookup of existing lesson IDs keyed by (subsection_fc, subsubsection_fc).
+    existing_lesson_ids: dict[tuple, tuple] = {}
+    if existing:
+        for lesson in existing.get("lessons", []):
+            key = (lesson.get("subsection_filecase"), lesson.get("subsubsection_filecase"))
+            existing_lesson_ids[key] = (
+                lesson.get("moodle_section_id"),
+                lesson.get("forum_id"),
+            )
 
-    # -- Build lessons
-    # Auto-generate placeholder IDs starting from a large base.
-    # These are reassigned by Moodle on restore, so exact values don't matter —
-    # they just need to be internally consistent within the backup.
-    SECTION_ID_BASE = 100000
-    FORUM_ID_BASE   = 101000
+    # Next available placeholder IDs (above the highest existing one within this course).
+    used_sids = [sid for sid, _ in existing_lesson_ids.values() if sid]
+    used_fids = [fid for _, fid in existing_lesson_ids.values() if fid]
+    next_sid  = max(used_sids + [100000]) + 1
+    next_fid  = max(used_fids + [101000]) + 1
 
+    # ── Build lessons ──
     lessons = []
-    n = len(rows)
-    print(f"\n  Auto-generating placeholder IDs for {n} lesson(s).")
-    print(f"  (section IDs from {SECTION_ID_BASE}, forum IDs from {FORUM_ID_BASE} — reassigned on restore)\n")
-
-    for i, row in enumerate(rows, 1):
-        # Determine label (deepest level)
-        subsubsection          = row.get("Subsubsection", "").strip() or None
-        subsubsection_filecase = row.get("Subsubsection Filecase", "").strip() or None
+    for row in rows:
         subsection             = row.get("Subsection", "").strip() or None
         subsection_filecase    = row.get("Subsection Filecase", "").strip() or None
-        label = subsubsection or subsection
+        subsubsection          = row.get("Subsubsection", "").strip() or None
+        subsubsection_filecase = row.get("Subsubsection Filecase", "").strip() or None
 
-        moodle_section_id = SECTION_ID_BASE + i
-        forum_id          = FORUM_ID_BASE + i
-        print(f"  Lesson {i}/{n}: {label} → section_id={moodle_section_id}, forum_id={forum_id}")
+        key = (subsection_filecase, subsubsection_filecase)
+        if key in existing_lesson_ids and all(v is not None for v in existing_lesson_ids[key]):
+            moodle_section_id, forum_id = existing_lesson_ids[key]
+        else:
+            moodle_section_id = next_sid;  next_sid += 1
+            forum_id          = next_fid;  next_fid += 1
 
-        # LO IDs for this lesson
         lesson_lo_ids = []
         for col in ("LO 1", "LO 2", "LO 3", "LO 4"):
             text = row.get(col, "").strip()
-            if text and text in lo_texts_seen:
-                lid = lo_texts_seen[text]
+            if text and text in lo_texts:
+                lid = lo_texts[text]
                 if lid not in lesson_lo_ids:
                     lesson_lo_ids.append(lid)
 
@@ -255,58 +203,81 @@ def build_course(rows: list[dict], existing_json: dict) -> dict:
             "learning_outcome_ids":   lesson_lo_ids,
         })
 
-        print()
-
     return {
-        "moodle_course_id":         moodle_course_id,
-        "moodle_course_folder":     moodle_course_folder,
-        "chapter":                  chapter,
-        "chapter_filecase":         chapter_filecase,
-        "chapter_number":           chapter_number,
-        "section":                  section,
-        "section_filecase":         section_filecase,
-        "section_number":           section_number,
-        "student_section_url":      student_section_url,
-        "course_logo_file":         course_logo_file,
-        "learning_outcomes":        learning_outcomes,
-        "lessons":                  lessons,
+        "moodle_course_id":     moodle_course_id,
+        "moodle_course_folder": moodle_course_folder,
+        "chapter":              chapter,
+        "chapter_filecase":     chapter_filecase,
+        "chapter_number":       chapter_number,
+        "section":              section,
+        "section_filecase":     section_filecase,
+        "section_number":       section_number,
+        "student_section_url":  student_section_url,
+        "course_logo_file":     course_logo_file,
+        "learning_outcomes":    learning_outcomes,
+        "lessons":              lessons,
     }
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    rows = load_csv()
+    print("Reading CSV…")
+    rows    = load_csv()
     grouped = group_by_chapter_section(rows)
-    existing_json = load_json()
+    data    = load_json()
 
-    chapters = list(grouped.keys())
-    ch_idx = choose("Which chapter do you want to populate?", chapters)
-    chapter = chapters[ch_idx]
+    # Index existing courses by section_filecase for fast lookup + preservation.
+    existing_index: dict[str, dict] = {
+        c["section_filecase"]: c for c in data.get("courses", [])
+    }
 
-    sections = list(grouped[chapter].keys())
-    se_idx = choose(f"Which section of '{chapter}'?", sections)
-    section = sections[se_idx]
+    new_courses = []
+    added = updated = 0
 
-    course_rows = grouped[chapter][section]
-    course_entry = build_course(course_rows, existing_json)
+    for chapter, sections in grouped.items():
+        for section, section_rows in sections.items():
+            section_filecase = section_rows[0]["Section Filecase"]
+            existing = existing_index.get(section_filecase)
+            course   = build_course_from_csv(section_rows, existing)
+            new_courses.append(course)
 
-    if course_entry is None:
-        return
+            tag = "updated" if existing else "added"
+            n   = len(section_rows)
+            logo_note = f", logo={course['course_logo_file']!r}" if course["course_logo_file"] else ""
+            ch_note   = f"  ch={course['chapter_number']}" if course["chapter_number"] else "  ch=?"
+            se_note   = f" sec={course['section_number']}" if course["section_number"] else " sec=?"
+            print(f"  [{tag:7s}] {section:<45s} {n:2d} lessons{ch_note}{se_note}{logo_note}")
 
-    # Remove existing entry for this section if present
-    existing_json["courses"] = [
-        c for c in existing_json["courses"]
-        if c.get("section_filecase") != course_entry["section_filecase"]
-    ]
-    existing_json["courses"].append(course_entry)
+            if existing:
+                updated += 1
+            else:
+                added += 1
 
-    # Ensure top-level fields are present
-    existing_json.setdefault("lesson_plan_base_url", LESSON_PLAN_BASE_URL)
-    existing_json.setdefault("facilitators", FACILITATORS)
+    data["courses"]            = new_courses
+    data["lesson_plan_base_url"] = LESSON_PLAN_BASE_URL
+    data.setdefault("facilitators", FACILITATORS)
 
-    save_json(existing_json)
-    print("\nDone! Review data/courses.json and commit when ready.")
+    print()
+    save_json(data)
+    print(f"\nDone: {added} new, {updated} updated, {len(new_courses)} total courses.\n")
+
+    # Report fields still missing (will be asked by generate_course.py)
+    missing_fields: list[str] = []
+    for c in new_courses:
+        gaps = []
+        if c["chapter_number"] is None: gaps.append("chapter_number")
+        if c["section_number"]  is None: gaps.append("section_number")
+        if c["course_logo_file"] is None: gaps.append("course_logo_file")
+        if gaps:
+            missing_fields.append(f"  {c['section']}: {', '.join(gaps)}")
+
+    if missing_fields:
+        print("Fields still needed (will be asked when running generate_course.py):")
+        for line in missing_fields:
+            print(line)
+    else:
+        print("All courses fully populated — ready to generate!")
 
 
 if __name__ == "__main__":

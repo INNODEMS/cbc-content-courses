@@ -26,27 +26,27 @@
       "course_logo_file": "real-numbers.jpg",
       "learning_outcomes": [
         {
-          "id": "lo-real-numbers-1",
+          "id": "lo-184050140f",
           "description": "Classify whole numbers as odd, even, prime and composite in different situations"
         },
         {
-          "id": "lo-real-numbers-2",
+          "id": "lo-ddf82c3fb4",
           "description": "Classify real numbers as rational and irrational in different situations"
         },
         {
-          "id": "lo-real-numbers-3",
+          "id": "lo-f2638d1c14",
           "description": "Determine the reciprocal of real numbers by division"
         },
         {
-          "id": "lo-real-numbers-4",
+          "id": "lo-d523e28d95",
           "description": "Determine the reciprocal of real numbers by use of mathematical tables and calculators"
         },
         {
-          "id": "lo-real-numbers-5",
+          "id": "lo-8abb0f6683",
           "description": "Apply reciprocal of real numbers in mathematical computations"
         },
         {
-          "id": "lo-real-numbers-6",
+          "id": "lo-79ce74e8e8",
           "description": "Promote the use of real numbers in day-to-day activities"
         }
       ],
@@ -140,6 +140,827 @@
           "learning_outcome_ids": [
             "lo-8abb0f6683",
             "lo-79ce74e8e8"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": 573,
+      "moodle_course_folder": "backup-moodle2-course-573-indices-and-logarithms",
+      "chapter": "Numbers and Algebra",
+      "chapter_filecase": "numbers-and-algebra",
+      "chapter_number": null,
+      "section": "Indices and Logarithms",
+      "section_filecase": "indices-and-logarithms",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-indices-and-logarithms.html",
+      "course_logo_file": "indices-and-logarithms.png",
+      "learning_outcomes": [
+        {
+          "id": "lo-3673d263f6",
+          "description": "Express numbers in index form"
+        },
+        {
+          "id": "lo-baa04ad215",
+          "description": "Derive the laws of indices using factors"
+        },
+        {
+          "id": "lo-5c59aa98b1",
+          "description": "Apply the laws of indices in different situations"
+        },
+        {
+          "id": "lo-38ff973396",
+          "description": "Relate index notation to logarithm notation to base 10"
+        },
+        {
+          "id": "lo-2b93ef142e",
+          "description": "Determine common logarithms of numbers from mathematical tables and calculators"
+        },
+        {
+          "id": "lo-54e899a1b7",
+          "description": "Apply common logarithms in multiplication, division, powers and roots of numbers"
+        },
+        {
+          "id": "lo-f01207a40e",
+          "description": "Appreciate the use of indices and common logarithms in mathematical computations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Indices",
+          "subsection_filecase": "indices",
+          "subsubsection": "Introduction to Indices",
+          "subsubsection_filecase": "introduction-to-indices",
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/introduction-to-indices.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_introduction-to-indices.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-3673d263f6"
+          ]
+        },
+        {
+          "subsection": "Indices",
+          "subsection_filecase": "indices",
+          "subsubsection": "Laws of Indices",
+          "subsubsection_filecase": "laws-of-indices",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/laws-of-indices.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_laws-of-indices.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-baa04ad215"
+          ]
+        },
+        {
+          "subsection": "Indices",
+          "subsection_filecase": "indices",
+          "subsubsection": "Zero and Negative Indices",
+          "subsubsection_filecase": "zero-and-negative-indices",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/zero-and-negative-indices.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_zero-and-negative-indices.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-baa04ad215"
+          ]
+        },
+        {
+          "subsection": "Indices",
+          "subsection_filecase": "indices",
+          "subsubsection": "Indices in Real-Life",
+          "subsubsection_filecase": "indices-in-real-life",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/indices-in-real-life.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_indices-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5c59aa98b1"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Introduction to Logarithms",
+          "subsubsection_filecase": "introduction-to-logarithms",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/introduction-to-logarithms.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_introduction-to-logarithms.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-38ff973396"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Finding Logarithms Using Tables and Calculators",
+          "subsubsection_filecase": "finding-logarithms-using-tables-and-calculators",
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/finding-logarithms-using-tables-and-calculators.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_finding-logarithms-using-tables-and-calculators.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-2b93ef142e"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Antilogarithms",
+          "subsubsection_filecase": "antilogarithms",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/antilogarithms.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_antilogarithms.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-2b93ef142e"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Logarithms of Products and Ratios",
+          "subsubsection_filecase": "logarithms-of-products-and-ratios",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/logarithms-of-products-and-ratios.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_logarithms-of-products-and-ratios.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-54e899a1b7"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Using logarithms to compute Products and Ratios",
+          "subsubsection_filecase": "using-logarithms-to-compute-products-and-ratios",
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/using-logarithms-to-compute-products-and-ratios.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_using-logarithms-to-compute-products-and-ratios.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-54e899a1b7"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Logarithms of Powers and Roots",
+          "subsubsection_filecase": "logarithms-of-powers-and-roots",
+          "moodle_section_id": 100010,
+          "forum_id": 101010,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/logarithms-of-powers-and-roots.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_logarithms-of-powers-and-roots.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-54e899a1b7"
+          ]
+        },
+        {
+          "subsection": "Logarithms",
+          "subsection_filecase": "logarithms",
+          "subsubsection": "Logarithms in Real-Life",
+          "subsubsection_filecase": "logarithms-in-real-life",
+          "moodle_section_id": 100011,
+          "forum_id": 101011,
+          "lesson_plan_path": "numbers-and-algebra/indices-and-logarithms/logarithms-in-real-life.pdf",
+          "step_by_step_path": "numbers-and-algebra/indices-and-logarithms/step-by-step-guide_logarithms-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f01207a40e"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": 574,
+      "moodle_course_folder": "backup-moodle2-course-574-quadratic-expressions-and-equations",
+      "chapter": "Numbers and Algebra",
+      "chapter_filecase": "numbers-and-algebra",
+      "chapter_number": null,
+      "section": "Quadratic Expressions and Equations",
+      "section_filecase": "quadratic-expressions-and-equations",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-quadratic-expressions-and-equations.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-f7e70af21f",
+          "description": "Form quadratic expressions from different situations"
+        },
+        {
+          "id": "lo-6d241bf1ad",
+          "description": "Derive the quadratic identities from the concept of area"
+        },
+        {
+          "id": "lo-55ec84e703",
+          "description": "Apply quadratic identities in numerical cases"
+        },
+        {
+          "id": "lo-ff8b5df251",
+          "description": "Factorise quadratic expressions from different situations"
+        },
+        {
+          "id": "lo-0e06689913",
+          "description": "Form quadratic equations in different situations"
+        },
+        {
+          "id": "lo-4e04eda4ec",
+          "description": "Solve quadratic equations by factorisation"
+        },
+        {
+          "id": "lo-26786c441f",
+          "description": "Apply quadratic equations to real life situations"
+        },
+        {
+          "id": "lo-cbd31ddda7",
+          "description": "Explore the use of quadratic equations in real life situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Quadratic Expressions",
+          "subsection_filecase": "quadratic-expressions",
+          "subsubsection": "Forming Quadratic Expressions by Multiplying 1",
+          "subsubsection_filecase": "forming-quadratic-expressions-by-multiplying-1",
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/forming-quadratic-expressions-by-multiplying-1.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_forming-quadratic-expressions-by-multiplying-1.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f7e70af21f"
+          ]
+        },
+        {
+          "subsection": "Quadratic Expressions",
+          "subsection_filecase": "quadratic-expressions",
+          "subsubsection": "Forming Quadratic Expressions by Multiplying 2",
+          "subsubsection_filecase": "forming-quadratic-expressions-by-multiplying-2",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/forming-quadratic-expressions-by-multiplying-2.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_forming-quadratic-expressions-by-multiplying-2.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f7e70af21f"
+          ]
+        },
+        {
+          "subsection": "Quadratic Expressions",
+          "subsection_filecase": "quadratic-expressions",
+          "subsubsection": "Forming Quadratic Expressions in Real-Life",
+          "subsubsection_filecase": "forming-quadratic-expressions-in-real-life",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/forming-quadratic-expressions-in-real-life.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_forming-quadratic-expressions-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f7e70af21f"
+          ]
+        },
+        {
+          "subsection": "Quadratic Identities",
+          "subsection_filecase": "quadratic-identities",
+          "subsubsection": "Perfect Squares",
+          "subsubsection_filecase": "perfect-squares",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/perfect-squares.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_perfect-squares.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-6d241bf1ad"
+          ]
+        },
+        {
+          "subsection": "Quadratic Identities",
+          "subsection_filecase": "quadratic-identities",
+          "subsubsection": "Difference of Squares",
+          "subsubsection_filecase": "difference-of-squares",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/difference-of-squares.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_difference-of-squares.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-6d241bf1ad"
+          ]
+        },
+        {
+          "subsection": "Quadratic Identities",
+          "subsection_filecase": "quadratic-identities",
+          "subsubsection": "Quadratic Identities in Numerical Cases",
+          "subsubsection_filecase": "quadratic-identities-in-numerical-cases",
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/quadratic-identities-in-numerical-cases.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_quadratic-identities-in-numerical-cases.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-55ec84e703"
+          ]
+        },
+        {
+          "subsection": "Factorising Quadratics",
+          "subsection_filecase": "factorising-quadratics",
+          "subsubsection": "Factorising Monic Quadratics",
+          "subsubsection_filecase": "factorising-monic-quadratics",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/factorising-monic-quadratics.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_factorising-monic-quadratics.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-ff8b5df251"
+          ]
+        },
+        {
+          "subsection": "Factorising Quadratics",
+          "subsection_filecase": "factorising-quadratics",
+          "subsubsection": "Factorising Non-Monic Quadratics",
+          "subsubsection_filecase": "factorising-non-monic-quadratics",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/factorising-non-monic-quadratics.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_factorising-non-monic-quadratics.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-ff8b5df251"
+          ]
+        },
+        {
+          "subsection": "Quadratic Equations",
+          "subsection_filecase": "quadratic-equations",
+          "subsubsection": "Formation of Quadratic Equations",
+          "subsubsection_filecase": "formation-of-quadratic-equations",
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/formation-of-quadratic-equations.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_formation-of-quadratic-equations.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-0e06689913"
+          ]
+        },
+        {
+          "subsection": "Quadratic Equations",
+          "subsection_filecase": "quadratic-equations",
+          "subsubsection": "Solving Quadratic Equations",
+          "subsubsection_filecase": "solving-quadratic-equations",
+          "moodle_section_id": 100010,
+          "forum_id": 101010,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/solving-quadratic-equations.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_solving-quadratic-equations.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-4e04eda4ec"
+          ]
+        },
+        {
+          "subsection": "Quadratic Equations",
+          "subsection_filecase": "quadratic-equations",
+          "subsubsection": "Quadratic Equations in Real-Life",
+          "subsubsection_filecase": "quadratic-equations-in-real-life",
+          "moodle_section_id": 100011,
+          "forum_id": 101011,
+          "lesson_plan_path": "numbers-and-algebra/quadratic-expressions-and-equations/quadratic-equations-in-real-life.pdf",
+          "step_by_step_path": "numbers-and-algebra/quadratic-expressions-and-equations/step-by-step-guide_quadratic-equations-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-26786c441f",
+            "lo-cbd31ddda7"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-similarity-and-enlargement",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Similarity and Enlargement",
+      "section_filecase": "similarity-and-enlargement",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-similarity-and-enlargement.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-bcd05a0193",
+          "description": "Determine the centre of enlargement and the linear scale factor for similar figures"
+        },
+        {
+          "id": "lo-df175f32f6",
+          "description": "Apply similarity and enlargement to real-life situations"
+        },
+        {
+          "id": "lo-1e1dd2a83f",
+          "description": "Appreciate the use of similarity and enlargement in real-life situations"
+        },
+        {
+          "id": "lo-902bc7a000",
+          "description": "Construct the image of an object under an enlargement given the centre and the linear scale factor"
+        },
+        {
+          "id": "lo-e6fcae0e94",
+          "description": "Determine the area and volume scale factor of different figures and solids"
+        },
+        {
+          "id": "lo-024807d6e3",
+          "description": "Relate linear scale factor, area scale factor, and volume scale factor in enlargements"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Introduction to Similarity",
+          "subsection_filecase": "introduction-to-similarity",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/introduction-to-similarity.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_introduction-to-similarity.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-bcd05a0193",
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        },
+        {
+          "subsection": "Enlargements of Objects",
+          "subsection_filecase": "enlargements-of-objects",
+          "subsubsection": "Positive Enlargements",
+          "subsubsection_filecase": "positive-enlargements",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/positive-enlargements.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_positive-enlargements.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-902bc7a000",
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        },
+        {
+          "subsection": "Enlargements of Objects",
+          "subsection_filecase": "enlargements-of-objects",
+          "subsubsection": "Negative Enlargements",
+          "subsubsection_filecase": "negative-enlargements",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/negative-enlargements.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_negative-enlargements.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-902bc7a000",
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        },
+        {
+          "subsection": "Scale Factors",
+          "subsection_filecase": "scale-factors",
+          "subsubsection": "Area Scale Factors",
+          "subsubsection_filecase": "area-scale-factors",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/area-scale-factors.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_area-scale-factors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-e6fcae0e94",
+            "lo-024807d6e3",
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        },
+        {
+          "subsection": "Scale Factors",
+          "subsection_filecase": "scale-factors",
+          "subsubsection": "Volume Scale Factors",
+          "subsubsection_filecase": "volume-scale-factors",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/volume-scale-factors.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_volume-scale-factors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-e6fcae0e94",
+            "lo-024807d6e3",
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        },
+        {
+          "subsection": "Similarity and Enlargement in Real-Life",
+          "subsection_filecase": "similarity-and-enlargement-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/similarity-and-enlargement/similarity-and-enlargement-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/similarity-and-enlargement/step-by-step-guide_similarity-and-enlargement-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-df175f32f6",
+            "lo-1e1dd2a83f"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-reflection-and-congruence",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Reflection and Congruence",
+      "section_filecase": "reflection-and-congruence",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-reflection-and-congruence.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-4c4924c75f",
+          "description": "Identify lines of symmetry in plane figures"
+        },
+        {
+          "id": "lo-27bca1332f",
+          "description": "Determine the properties of reflection in different situations"
+        },
+        {
+          "id": "lo-85e50394dd",
+          "description": "Draw an image given an object and a mirror line on plane surface and Cartesian plane"
+        },
+        {
+          "id": "lo-331d8e3b95",
+          "description": "Determine the equation of the mirror line given an object and its image"
+        },
+        {
+          "id": "lo-33ad795bcf",
+          "description": "Carry out congruence tests for triangles"
+        },
+        {
+          "id": "lo-244deb15f4",
+          "description": "Promote use of reflection and congruence in real-life situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Properties of Symmetry and Reflection",
+          "subsection_filecase": "properties-of-symmetry-and-reflection",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/reflection-and-congruence/properties-of-symmetry-and-reflection.pdf",
+          "step_by_step_path": "measurements-and-geometry/reflection-and-congruence/step-by-step-guide_properties-of-symmetry-and-reflection.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-4c4924c75f",
+            "lo-27bca1332f"
+          ]
+        },
+        {
+          "subsection": "Reflecting Objects",
+          "subsection_filecase": "reflecting-objects",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/reflection-and-congruence/reflecting-objects.pdf",
+          "step_by_step_path": "measurements-and-geometry/reflection-and-congruence/step-by-step-guide_reflecting-objects.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-85e50394dd"
+          ]
+        },
+        {
+          "subsection": "Equations of Mirror Lines",
+          "subsection_filecase": "equations-of-mirror-lines",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/reflection-and-congruence/equations-of-mirror-lines.pdf",
+          "step_by_step_path": "measurements-and-geometry/reflection-and-congruence/step-by-step-guide_equations-of-mirror-lines.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-331d8e3b95"
+          ]
+        },
+        {
+          "subsection": "Congruence in Triangles",
+          "subsection_filecase": "congruence-in-triangles",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/reflection-and-congruence/congruence-in-triangles.pdf",
+          "step_by_step_path": "measurements-and-geometry/reflection-and-congruence/step-by-step-guide_congruence-in-triangles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-33ad795bcf"
+          ]
+        },
+        {
+          "subsection": "Reflection and Congruence in Real-Life",
+          "subsection_filecase": "reflection-and-congruence-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/reflection-and-congruence/reflection-and-congruence-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/reflection-and-congruence/step-by-step-guide_reflection-and-congruence-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-244deb15f4"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-rotation",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Rotation",
+      "section_filecase": "rotation",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-rotation.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-a4794633ec",
+          "description": "Determine the properties of rotation in different situations"
+        },
+        {
+          "id": "lo-0c649b1da6",
+          "description": "Appreciate the application of rotation in real-life situations"
+        },
+        {
+          "id": "lo-9d4cd25882",
+          "description": "Rotate an object given the centre and angle of rotation on a plane surface and the Cartesian plane"
+        },
+        {
+          "id": "lo-87017db325",
+          "description": "Determine the centre and angle of rotation given an object and its image"
+        },
+        {
+          "id": "lo-e3af8bd594",
+          "description": "Determine the order of rotational symmetry of plane figures"
+        },
+        {
+          "id": "lo-6a4004a097",
+          "description": "Determine the axis and order of rotational symmetry in solids"
+        },
+        {
+          "id": "lo-a313ba02c6",
+          "description": "Deduce congruence from rotation"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Properties of Rotation",
+          "subsection_filecase": "properties-of-rotation",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/rotation/properties-of-rotation.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_properties-of-rotation.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a4794633ec",
+            "lo-0c649b1da6"
+          ]
+        },
+        {
+          "subsection": "Rotating Objects",
+          "subsection_filecase": "rotating-objects",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/rotation/rotating-objects.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_rotating-objects.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-9d4cd25882",
+            "lo-87017db325"
+          ]
+        },
+        {
+          "subsection": "Rotational Symmetry",
+          "subsection_filecase": "rotational-symmetry",
+          "subsubsection": "Rotational Symmetry of Plane Figures",
+          "subsubsection_filecase": "rotational-symmetry-of-plane-figures",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/rotation/rotational-symmetry-of-plane-figures.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_rotational-symmetry-of-plane-figures.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-e3af8bd594",
+            "lo-0c649b1da6"
+          ]
+        },
+        {
+          "subsection": "Rotational Symmetry",
+          "subsection_filecase": "rotational-symmetry",
+          "subsubsection": "Rotational Symmetry of Solids",
+          "subsubsection_filecase": "rotational-symmetry-of-solids",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/rotation/rotational-symmetry-of-solids.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_rotational-symmetry-of-solids.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-6a4004a097",
+            "lo-0c649b1da6"
+          ]
+        },
+        {
+          "subsection": "Rotation and Congruence",
+          "subsection_filecase": "rotation-and-congruence",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/rotation/rotation-and-congruence.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_rotation-and-congruence.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a313ba02c6",
+            "lo-0c649b1da6"
+          ]
+        },
+        {
+          "subsection": "Rotation in Real-Life",
+          "subsection_filecase": "rotation-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/rotation/rotation-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/rotation/step-by-step-guide_rotation-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-0c649b1da6"
           ]
         }
       ]
@@ -315,6 +1136,1541 @@
           "step_by_step_exists": false,
           "learning_outcome_ids": [
             "lo-d526961706"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-area-of-polygons",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Area of Polygons",
+      "section_filecase": "area-of-polygons",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-area-of-polygons.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-40df8ac6c7",
+          "description": "Derive the formula for the area of a triangle given two sides and an included angle"
+        },
+        {
+          "id": "lo-a190fb3ad6",
+          "description": "Work out the area of a triangle given two sides and an included angle"
+        },
+        {
+          "id": "lo-158791255a",
+          "description": "Determine the area of a triangle using Heron's formula"
+        },
+        {
+          "id": "lo-5fd0e29436",
+          "description": "Determine the area of quadrilaterals in different situations"
+        },
+        {
+          "id": "lo-ea6d589448",
+          "description": "Explore the area of polygons as used in real-life situations"
+        },
+        {
+          "id": "lo-668554148e",
+          "description": "Work out the area of regular heptagon and octagon"
+        },
+        {
+          "id": "lo-2b294e902f",
+          "description": "Determine the area of irregular polygons in different situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Area of Triangles",
+          "subsection_filecase": "area-of-triangles",
+          "subsubsection": "Using Two Sides and an Angle",
+          "subsubsection_filecase": "using-two-sides-and-an-angle",
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/using-two-sides-and-an-angle.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_using-two-sides-and-an-angle.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-40df8ac6c7",
+            "lo-a190fb3ad6"
+          ]
+        },
+        {
+          "subsection": "Area of Triangles",
+          "subsection_filecase": "area-of-triangles",
+          "subsubsection": "Heron's Formula",
+          "subsubsection_filecase": "herons-formula",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/herons-formula.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_herons-formula.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-158791255a"
+          ]
+        },
+        {
+          "subsection": "Area of Quadrilaterals",
+          "subsection_filecase": "area-of-quadrilaterals",
+          "subsubsection": "Area of Squares and Rectangles",
+          "subsubsection_filecase": "area-of-squares-and-rectangles",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-squares-and-rectangles.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-squares-and-rectangles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5fd0e29436",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Quadrilaterals",
+          "subsection_filecase": "area-of-quadrilaterals",
+          "subsubsection": "Area of Parallelograms",
+          "subsubsection_filecase": "area-of-parallelograms",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-parallelograms.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-parallelograms.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5fd0e29436",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Quadrilaterals",
+          "subsection_filecase": "area-of-quadrilaterals",
+          "subsubsection": "Area of Rhombuses",
+          "subsubsection_filecase": "area-of-rhombuses",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-rhombuses.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-rhombuses.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5fd0e29436",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Quadrilaterals",
+          "subsection_filecase": "area-of-quadrilaterals",
+          "subsubsection": "Area of Trapeziums",
+          "subsubsection_filecase": "area-of-trapeziums",
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-trapeziums.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-trapeziums.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5fd0e29436",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Quadrilaterals",
+          "subsection_filecase": "area-of-quadrilaterals",
+          "subsubsection": "Area of Kites",
+          "subsubsection_filecase": "area-of-kites",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-kites.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-kites.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5fd0e29436",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Regular Polygons",
+          "subsection_filecase": "area-of-regular-polygons",
+          "subsubsection": "Area of Heptagons",
+          "subsubsection_filecase": "area-of-heptagons",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-heptagons.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-heptagons.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-668554148e",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Regular Polygons",
+          "subsection_filecase": "area-of-regular-polygons",
+          "subsubsection": "Area of Octagons",
+          "subsubsection_filecase": "area-of-octagons",
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-octagons.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-octagons.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-668554148e",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Regular Polygons",
+          "subsection_filecase": "area-of-regular-polygons",
+          "subsubsection": "Area of Nonagons",
+          "subsubsection_filecase": "area-of-nonagons",
+          "moodle_section_id": 100010,
+          "forum_id": 101010,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-nonagons.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-nonagons.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": []
+        },
+        {
+          "subsection": "Area of Regular Polygons",
+          "subsection_filecase": "area-of-regular-polygons",
+          "subsubsection": "Area of Decagons",
+          "subsubsection_filecase": "area-of-decagons",
+          "moodle_section_id": 100011,
+          "forum_id": 101011,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-decagons.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-decagons.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": []
+        },
+        {
+          "subsection": "Area of Irregular Polygons",
+          "subsection_filecase": "area-of-irregular-polygons",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100012,
+          "forum_id": 101012,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-irregular-polygons.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-irregular-polygons.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-2b294e902f",
+            "lo-ea6d589448"
+          ]
+        },
+        {
+          "subsection": "Area of Polygons in Real-Life",
+          "subsection_filecase": "area-of-polygons-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100013,
+          "forum_id": 101013,
+          "lesson_plan_path": "measurements-and-geometry/area-of-polygons/area-of-polygons-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-polygons/step-by-step-guide_area-of-polygons-in-real-life.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-ea6d589448"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-area-of-a-part-of-a-circle",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Area of a Part of a Circle",
+      "section_filecase": "area-of-a-part-of-a-circle",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-area-of-a-part-of-a-circle.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-a0e8241f24",
+          "description": "Determine the area of an annulus in different situations"
+        },
+        {
+          "id": "lo-f0814f7f57",
+          "description": "Apply the area of a part of a circle in real-life situations"
+        },
+        {
+          "id": "lo-20e5504ac4",
+          "description": "Explore the use of the area of a part of a circle in real-life situations"
+        },
+        {
+          "id": "lo-11a25e4cfd",
+          "description": "Work out the area of a sector of a circle in real-life situations"
+        },
+        {
+          "id": "lo-61868b3059",
+          "description": "Determine the area of an annular sector in different situations"
+        },
+        {
+          "id": "lo-ce3d9ca6f6",
+          "description": "Work out the area of a segment of a circle"
+        },
+        {
+          "id": "lo-7e08e073d9",
+          "description": "Determine the area of common region between two intersecting circles"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Area of an Annulus",
+          "subsection_filecase": "area-of-an-annulus",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-an-annulus.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-an-annulus.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a0e8241f24",
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        },
+        {
+          "subsection": "Area of Sectors",
+          "subsection_filecase": "area-of-sectors",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-sectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-sectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-11a25e4cfd",
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        },
+        {
+          "subsection": "Area of Annular Sectors",
+          "subsection_filecase": "area-of-annular-sectors",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-annular-sectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-annular-sectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-61868b3059",
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        },
+        {
+          "subsection": "Area of Segments",
+          "subsection_filecase": "area-of-segments",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-segments.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-segments.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-ce3d9ca6f6",
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        },
+        {
+          "subsection": "Area of Common Regions Between Circles",
+          "subsection_filecase": "area-of-common-regions-between-circles",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-common-regions-between-circles.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-common-regions-between-circles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-7e08e073d9",
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        },
+        {
+          "subsection": "Area of a Part of a Circle in Real-Life",
+          "subsection_filecase": "area-of-a-part-of-a-circle-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/area-of-a-part-of-a-circle/area-of-a-part-of-a-circle-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/area-of-a-part-of-a-circle/step-by-step-guide_area-of-a-part-of-a-circle-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f0814f7f57",
+            "lo-20e5504ac4"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-surface-area",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Surface Area",
+      "section_filecase": "surface-area",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-surface-area.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-05892c05a3",
+          "description": "Determine the surface area of prisms, pyramids, cones, frustums and spheres"
+        },
+        {
+          "id": "lo-76b8129b9a",
+          "description": "Explore the use of the surface area and volume of solids in real-life situations"
+        },
+        {
+          "id": "lo-41c8901745",
+          "description": "Calculate the surface area of composite solids"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Surface Area of Cubes and Cuboids",
+          "subsection_filecase": "surface-area-of-cubes-and-cuboids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-cubes-and-cuboids.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-cubes-and-cuboids.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": []
+        },
+        {
+          "subsection": "Surface Area of Prisms",
+          "subsection_filecase": "surface-area-of-prisms",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-prisms.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-prisms.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Cylinders",
+          "subsection_filecase": "surface-area-of-cylinders",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-cylinders.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-cylinders.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Pyramids",
+          "subsection_filecase": "surface-area-of-pyramids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-pyramids.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-pyramids.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Cones",
+          "subsection_filecase": "surface-area-of-cones",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-cones.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-cones.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Frustums",
+          "subsection_filecase": "surface-area-of-frustums",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-frustums.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-frustums.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Spheres",
+          "subsection_filecase": "surface-area-of-spheres",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-spheres.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-spheres.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-05892c05a3",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area of Composite Solids",
+          "subsection_filecase": "surface-area-of-composite-solids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-of-composite-solids.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-of-composite-solids.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-41c8901745",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Surface Area in Real-Life",
+          "subsection_filecase": "surface-area-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "measurements-and-geometry/surface-area/surface-area-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/surface-area/step-by-step-guide_surface-area-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-76b8129b9a"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-volume",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Volume",
+      "section_filecase": "volume",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-volume.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-fb27917a0b",
+          "description": "Calculate the volume of prisms, pyramids, cones, frustums and spheres"
+        },
+        {
+          "id": "lo-76b8129b9a",
+          "description": "Explore the use of the surface area and volume of solids in real-life situations"
+        },
+        {
+          "id": "lo-04dcd9f366",
+          "description": "Determine the volume of composite solids"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Volume of Cubes and Cuboids",
+          "subsection_filecase": "volume-of-cubes-and-cuboids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-cubes-and-cuboids.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-cubes-and-cuboids.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": []
+        },
+        {
+          "subsection": "Volume of Prisms",
+          "subsection_filecase": "volume-of-prisms",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-prisms.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-prisms.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-fb27917a0b",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume of Cylinders",
+          "subsection_filecase": "volume-of-cylinders",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-cylinders.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-cylinders.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": []
+        },
+        {
+          "subsection": "Volume of Pyramids",
+          "subsection_filecase": "volume-of-pyramids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-pyramids.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-pyramids.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-fb27917a0b",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume of Cones",
+          "subsection_filecase": "volume-of-cones",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-cones.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-cones.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-fb27917a0b",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume of Frustums",
+          "subsection_filecase": "volume-of-frustums",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-frustums.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-frustums.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-fb27917a0b",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume of Spheres",
+          "subsection_filecase": "volume-of-spheres",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-spheres.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-spheres.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-fb27917a0b",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume of Composite Solids",
+          "subsection_filecase": "volume-of-composite-solids",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-of-composite-solids.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-of-composite-solids.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-04dcd9f366",
+            "lo-76b8129b9a"
+          ]
+        },
+        {
+          "subsection": "Volume in Real-Life",
+          "subsection_filecase": "volume-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "measurements-and-geometry/volume/volume-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/volume/step-by-step-guide_volume-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-76b8129b9a"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-vectors-1",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Vectors 1",
+      "section_filecase": "vectors-1",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-vectors-1.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-bf1fa729fd",
+          "description": "Explain vector and scalar quantities with illustrations"
+        },
+        {
+          "id": "lo-7060d60bfd",
+          "description": "Use vector notations in different ways"
+        },
+        {
+          "id": "lo-8890239d35",
+          "description": "Represent vectors geometrically in different situations"
+        },
+        {
+          "id": "lo-06e63d8374",
+          "description": "Determine column vectors in different situations"
+        },
+        {
+          "id": "lo-4ebdbec5e8",
+          "description": "Determine position vectors in different situations"
+        },
+        {
+          "id": "lo-a00aec73eb",
+          "description": "Work out magnitude of a vector in different situations"
+        },
+        {
+          "id": "lo-b2c51f46a1",
+          "description": "Determine the midpoint of a vector in different situations"
+        },
+        {
+          "id": "lo-6437cd8663",
+          "description": "Add vectors in different situations"
+        },
+        {
+          "id": "lo-336982a88b",
+          "description": "Multiply vectors by scalars"
+        },
+        {
+          "id": "lo-6aa988255d",
+          "description": "Determine translation vector as a transformation"
+        },
+        {
+          "id": "lo-00f0632f03",
+          "description": "Identify equivalent vectors in different situations"
+        },
+        {
+          "id": "lo-5cef791f55",
+          "description": "Appreciate the use of vectors in real-life situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Vector and Scalar Quantities",
+          "subsection_filecase": "vector-and-scalar-quantities",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/vector-and-scalar-quantities.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_vector-and-scalar-quantities.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-bf1fa729fd",
+            "lo-7060d60bfd"
+          ]
+        },
+        {
+          "subsection": "Representing Vectors",
+          "subsection_filecase": "representing-vectors",
+          "subsubsection": "Representing Vectors Geometrically",
+          "subsubsection_filecase": "representing-vectors-geometrically",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/representing-vectors-geometrically.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_representing-vectors-geometrically.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-8890239d35"
+          ]
+        },
+        {
+          "subsection": "Representing Vectors",
+          "subsection_filecase": "representing-vectors",
+          "subsubsection": "Column Vectors",
+          "subsubsection_filecase": "column-vectors",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/column-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_column-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-06e63d8374",
+            "lo-4ebdbec5e8"
+          ]
+        },
+        {
+          "subsection": "Representing Vectors",
+          "subsection_filecase": "representing-vectors",
+          "subsubsection": "Position Vectors",
+          "subsubsection_filecase": "position-vectors",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/position-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_position-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-06e63d8374",
+            "lo-4ebdbec5e8"
+          ]
+        },
+        {
+          "subsection": "Magnitudes of Vectors",
+          "subsection_filecase": "magnitudes-of-vectors",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/magnitudes-of-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_magnitudes-of-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a00aec73eb"
+          ]
+        },
+        {
+          "subsection": "Midpoints of Vectors",
+          "subsection_filecase": "midpoints-of-vectors",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/midpoints-of-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_midpoints-of-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-b2c51f46a1"
+          ]
+        },
+        {
+          "subsection": "Manipulating Vectors",
+          "subsection_filecase": "manipulating-vectors",
+          "subsubsection": "Adding Vectors",
+          "subsubsection_filecase": "adding-vectors",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/adding-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_adding-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-6437cd8663"
+          ]
+        },
+        {
+          "subsection": "Manipulating Vectors",
+          "subsection_filecase": "manipulating-vectors",
+          "subsubsection": "Multiplying Vectors by Scalars",
+          "subsubsection_filecase": "multiplying-vectors-by-scalars",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/multiplying-vectors-by-scalars.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_multiplying-vectors-by-scalars.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-336982a88b"
+          ]
+        },
+        {
+          "subsection": "Manipulating Vectors",
+          "subsection_filecase": "manipulating-vectors",
+          "subsubsection": "Translating Vectors",
+          "subsubsection_filecase": "translating-vectors",
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/translating-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_translating-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-6aa988255d"
+          ]
+        },
+        {
+          "subsection": "Manipulating Vectors",
+          "subsection_filecase": "manipulating-vectors",
+          "subsubsection": "Equivalent Vectors",
+          "subsubsection_filecase": "equivalent-vectors",
+          "moodle_section_id": 100010,
+          "forum_id": 101010,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/equivalent-vectors.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_equivalent-vectors.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-00f0632f03"
+          ]
+        },
+        {
+          "subsection": "Vectors in Real-Life",
+          "subsection_filecase": "vectors-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100011,
+          "forum_id": 101011,
+          "lesson_plan_path": "measurements-and-geometry/vectors-1/vectors-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/vectors-1/step-by-step-guide_vectors-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5cef791f55"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-linear-motion",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": null,
+      "section": "Linear Motion",
+      "section_filecase": "linear-motion",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-linear-motion.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-79871f3c0a",
+          "description": "Explain the terms distance, displacement, speed, velocity and acceleration in real-life situations"
+        },
+        {
+          "id": "lo-95cc03fad2",
+          "description": "Determine velocity and acceleration in different situations"
+        },
+        {
+          "id": "lo-eeb7d4b037",
+          "description": "Determine relative speed of two moving bodies in different situations"
+        },
+        {
+          "id": "lo-9ba7da4397",
+          "description": "Draw a displacement-time graph of different situations"
+        },
+        {
+          "id": "lo-c75e04d4d3",
+          "description": "Interpret displacement-time graph in different situations"
+        },
+        {
+          "id": "lo-c1b1297519",
+          "description": "Draw a velocity-time graph from given tables in different situations"
+        },
+        {
+          "id": "lo-deafe5f990",
+          "description": "Interpret velocity-time graph in different situations"
+        },
+        {
+          "id": "lo-a42ff621c1",
+          "description": "Appreciate use of linear motion in real-life situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Distance and Displacement",
+          "subsection_filecase": "distance-and-displacement",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/distance-and-displacement.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_distance-and-displacement.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-79871f3c0a"
+          ]
+        },
+        {
+          "subsection": "Speed and Velocity",
+          "subsection_filecase": "speed-and-velocity",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/speed-and-velocity.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_speed-and-velocity.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-79871f3c0a",
+            "lo-95cc03fad2"
+          ]
+        },
+        {
+          "subsection": "Relative Speeds",
+          "subsection_filecase": "relative-speeds",
+          "subsubsection": "Relative Speeds of Objects Moving in the Same Direction",
+          "subsubsection_filecase": "relative-speeds-of-objects-moving-in-the-same-direction",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/relative-speeds-of-objects-moving-in-the-same-direction.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_relative-speeds-of-objects-moving-in-the-same-direction.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-eeb7d4b037"
+          ]
+        },
+        {
+          "subsection": "Relative Speeds",
+          "subsection_filecase": "relative-speeds",
+          "subsubsection": "Relative Speeds of Objects Moving in Different Directions",
+          "subsubsection_filecase": "relative-speeds-of-objects-moving-in-different-directions",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/relative-speeds-of-objects-moving-in-different-directions.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_relative-speeds-of-objects-moving-in-different-directions.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-eeb7d4b037"
+          ]
+        },
+        {
+          "subsection": "Acceleration",
+          "subsection_filecase": "acceleration",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/acceleration.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_acceleration.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-79871f3c0a",
+            "lo-95cc03fad2"
+          ]
+        },
+        {
+          "subsection": "Displacement-Time Graphs",
+          "subsection_filecase": "displacement-time-graphs",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/displacement-time-graphs.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_displacement-time-graphs.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-9ba7da4397",
+            "lo-c75e04d4d3"
+          ]
+        },
+        {
+          "subsection": "Velocity-Time Graphs",
+          "subsection_filecase": "velocity-time-graphs",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/velocity-time-graphs.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_velocity-time-graphs.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-c1b1297519",
+            "lo-deafe5f990"
+          ]
+        },
+        {
+          "subsection": "Linear Motion in Real-Life",
+          "subsection_filecase": "linear-motion-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/linear-motion/linear-motion-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/linear-motion/step-by-step-guide_linear-motion-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a42ff621c1"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-statistics-1",
+      "chapter": "Statistics and Probability",
+      "chapter_filecase": "statistics-and-probability",
+      "chapter_number": null,
+      "section": "Statistics 1",
+      "section_filecase": "statistics-1",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-statistics-1.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-a81148cd8f",
+          "description": "Collect data from real-life sources"
+        },
+        {
+          "id": "lo-4afb45724e",
+          "description": "Promote data collection, organisation and representation for informed decision making"
+        },
+        {
+          "id": "lo-bc3e1f2bc9",
+          "description": "Draw a frequency distribution table for grouped and ungrouped data"
+        },
+        {
+          "id": "lo-20ea2aad7f",
+          "description": "Determine mean, mode and median of grouped and ungrouped data"
+        },
+        {
+          "id": "lo-88d1e56f5f",
+          "description": "Represent data using histograms and frequency polygons"
+        },
+        {
+          "id": "lo-4c24d1a42a",
+          "description": "Interpret data from histograms and frequency polygons"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Introduction to Statistics",
+          "subsection_filecase": "introduction-to-statistics",
+          "subsubsection": "Sources of Data",
+          "subsubsection_filecase": "sources-of-data",
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/sources-of-data.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_sources-of-data.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a81148cd8f",
+            "lo-4afb45724e"
+          ]
+        },
+        {
+          "subsection": "Introduction to Statistics",
+          "subsection_filecase": "introduction-to-statistics",
+          "subsubsection": "Methods of Data Collection",
+          "subsubsection_filecase": "methods-of-data-collection",
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/methods-of-data-collection.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_methods-of-data-collection.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a81148cd8f",
+            "lo-4afb45724e"
+          ]
+        },
+        {
+          "subsection": "Ungrouped Data",
+          "subsection_filecase": "ungrouped-data",
+          "subsubsection": "Frequency Distribution Tables",
+          "subsubsection_filecase": "frequency-distribution-tables",
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/frequency-distribution-tables.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_frequency-distribution-tables.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-bc3e1f2bc9"
+          ]
+        },
+        {
+          "subsection": "Ungrouped Data",
+          "subsection_filecase": "ungrouped-data",
+          "subsubsection": "Mean",
+          "subsubsection_filecase": "mean",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/mean.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_mean.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Ungrouped Data",
+          "subsection_filecase": "ungrouped-data",
+          "subsubsection": "Median",
+          "subsubsection_filecase": "median",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/median.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_median.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Ungrouped Data",
+          "subsection_filecase": "ungrouped-data",
+          "subsubsection": "Mode",
+          "subsubsection_filecase": "mode",
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/mode.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_mode.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Grouped Data",
+          "subsection_filecase": "grouped-data",
+          "subsubsection": "Frequency Distribution Tables Grouped",
+          "subsubsection_filecase": "frequency-distribution-tables-grouped",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/frequency-distribution-tables-grouped.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_frequency-distribution-tables-grouped.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-bc3e1f2bc9"
+          ]
+        },
+        {
+          "subsection": "Grouped Data",
+          "subsection_filecase": "grouped-data",
+          "subsubsection": "Mean Grouped",
+          "subsubsection_filecase": "mean-grouped",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/mean-grouped.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_mean-grouped.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Grouped Data",
+          "subsection_filecase": "grouped-data",
+          "subsubsection": "Median Grouped",
+          "subsubsection_filecase": "median-grouped",
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/median-grouped.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_median-grouped.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Grouped Data",
+          "subsection_filecase": "grouped-data",
+          "subsubsection": "Mode Grouped",
+          "subsubsection_filecase": "mode-grouped",
+          "moodle_section_id": 100010,
+          "forum_id": 101010,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/mode-grouped.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_mode-grouped.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-20ea2aad7f"
+          ]
+        },
+        {
+          "subsection": "Histograms and Frequency Polygons",
+          "subsection_filecase": "histograms-and-frequency-polygons",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100011,
+          "forum_id": 101011,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/histograms-and-frequency-polygons.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_histograms-and-frequency-polygons.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-88d1e56f5f",
+            "lo-4c24d1a42a"
+          ]
+        },
+        {
+          "subsection": "Interpretation of Data",
+          "subsection_filecase": "interpretation-of-data",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100012,
+          "forum_id": 101012,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/interpretation-of-data.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_interpretation-of-data.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-88d1e56f5f",
+            "lo-4c24d1a42a",
+            "lo-4afb45724e"
+          ]
+        },
+        {
+          "subsection": "Statistics in Real-Life",
+          "subsection_filecase": "statistics-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100013,
+          "forum_id": 101013,
+          "lesson_plan_path": "statistics-and-probability/statistics-1/statistics-in-real-life.pdf",
+          "step_by_step_path": "statistics-and-probability/statistics-1/step-by-step-guide_statistics-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-a81148cd8f",
+            "lo-4afb45724e"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-probability-1",
+      "chapter": "Statistics and Probability",
+      "chapter_filecase": "statistics-and-probability",
+      "chapter_number": null,
+      "section": "Probability 1",
+      "section_filecase": "probability-1",
+      "section_number": null,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-probability-1.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-5c5f9109d1",
+          "description": "Perform experiments involving probabilities in different situations"
+        },
+        {
+          "id": "lo-4d5ec4b869",
+          "description": "Identify the range of probability in different situations"
+        },
+        {
+          "id": "lo-14a9082de9",
+          "description": "Appreciate the application of probability in real-life situations"
+        },
+        {
+          "id": "lo-1eea280ea7",
+          "description": "Generate probability space of different events"
+        },
+        {
+          "id": "lo-e64c4e6c83",
+          "description": "Determine the probability of mutually exclusive and independent events"
+        },
+        {
+          "id": "lo-57aec0c453",
+          "description": "Determine the probability of independent events using tree diagrams"
+        },
+        {
+          "id": "lo-f00ec36194",
+          "description": "Apply the laws of probability in different situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Introduction to Probability",
+          "subsection_filecase": "introduction-to-probability",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "statistics-and-probability/probability-1/introduction-to-probability.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_introduction-to-probability.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-5c5f9109d1",
+            "lo-4d5ec4b869",
+            "lo-14a9082de9"
+          ]
+        },
+        {
+          "subsection": "Probability Spaces",
+          "subsection_filecase": "probability-spaces",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "statistics-and-probability/probability-1/probability-spaces.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_probability-spaces.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-1eea280ea7"
+          ]
+        },
+        {
+          "subsection": "Mutually Exclusive Events",
+          "subsection_filecase": "mutually-exclusive-events",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "statistics-and-probability/probability-1/mutually-exclusive-events.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_mutually-exclusive-events.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-e64c4e6c83"
+          ]
+        },
+        {
+          "subsection": "Independent Events",
+          "subsection_filecase": "independent-events",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "statistics-and-probability/probability-1/independent-events.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_independent-events.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-e64c4e6c83",
+            "lo-57aec0c453"
+          ]
+        },
+        {
+          "subsection": "Laws of Probability",
+          "subsection_filecase": "laws-of-probability",
+          "subsubsection": "Addition Rule",
+          "subsubsection_filecase": "addition-rule",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "statistics-and-probability/probability-1/addition-rule.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_addition-rule.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f00ec36194"
+          ]
+        },
+        {
+          "subsection": "Laws of Probability",
+          "subsection_filecase": "laws-of-probability",
+          "subsubsection": "Multiplication Rule",
+          "subsubsection_filecase": "multiplication-rule",
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "statistics-and-probability/probability-1/multiplication-rule.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_multiplication-rule.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-f00ec36194"
+          ]
+        },
+        {
+          "subsection": "Probability Using Tree Diagrams",
+          "subsection_filecase": "probability-using-tree-diagrams",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "statistics-and-probability/probability-1/probability-using-tree-diagrams.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_probability-using-tree-diagrams.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-57aec0c453"
+          ]
+        },
+        {
+          "subsection": "Probability in Real-Life",
+          "subsection_filecase": "probability-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "statistics-and-probability/probability-1/probability-in-real-life.pdf",
+          "step_by_step_path": "statistics-and-probability/probability-1/step-by-step-guide_probability-in-real-life.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-4d5ec4b869",
+            "lo-14a9082de9"
           ]
         }
       ]
