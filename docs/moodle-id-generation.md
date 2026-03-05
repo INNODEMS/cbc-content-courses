@@ -89,54 +89,69 @@ IDs do **not** need to be:
 
 ## Recommended ID Generation Strategy for This Repo
 
-To avoid accidental collisions **within a single MBZ file** while keeping things simple:
+To avoid accidental collisions **within a single MBZ file**, derive new IDs from the course you are actually editing rather than using fixed arbitrary numbers:
 
-### Approach: Increment from the Highest Existing ID
+### Approach: Max Existing ID + Offset
 
-1. **Find the current maximum section ID and module ID** in the MBZ you are editing.
-2. **Add new IDs sequentially** above that maximum.
+For the course you are editing:
 
-**Current known maxima (as of the initial extraction):**
+1. **Find the current maximum section ID** — scan all `<sectionid>` values in `moodle_backup.xml`.
+2. **Find the current maximum module ID** — scan all `<moduleid>` values in `moodle_backup.xml`.
+3. **Add a buffer of 1000** to each maximum, then assign new IDs sequentially from there.
 
-| Course | Max section ID | Max module ID |
-|--------|---------------|--------------|
-| Real Numbers (571) | `6929` | `22535` |
-| Indices and Logarithms (573) | `6943` | `22555` |
+The +1000 buffer means that even if a few IDs were missed in the scan, the new IDs remain collision-free. It also makes added content visually distinguishable from original content when inspecting the XML.
 
-So for new content in either course, start from:
-- **New section IDs**: `7000+` (safe starting point above both courses)
-- **New module IDs**: `23000+` (safe starting point above both courses)
+**Formula:**
+
+```
+new_section_start = max(all <sectionid> in moodle_backup.xml) + 1000
+new_module_start  = max(all <moduleid>  in moodle_backup.xml) + 1000
+```
+
+**Example — Real Numbers course (course 571):**
+
+| ID type | Max existing | Safe start for new IDs |
+|---------|-------------|----------------------|
+| Section IDs | `6929` | `7929` (i.e. 6929 + 1000) |
+| Module IDs | `22535` | `23535` (i.e. 22535 + 1000) |
+
+**Example — Indices and Logarithms course (course 573):**
+
+| ID type | Max existing | Safe start for new IDs |
+|---------|-------------|----------------------|
+| Section IDs | `6943` | `7943` (i.e. 6943 + 1000) |
+| Module IDs | `22555` | `23555` (i.e. 22555 + 1000) |
+
+Always re-derive from the current `moodle_backup.xml` before starting work in case IDs have changed since these maxima were recorded.
 
 ### Checklist for Adding a New Section
 
-- [ ] Choose a new unique section ID (e.g. `7001`)
-- [ ] Create `sections/section_7001/` directory
-- [ ] Create `sections/section_7001/section.xml` with `<section id="7001">` and the correct `<number>` (next sequential position)
+- [ ] Determine `new_section_start` = max `<sectionid>` in `moodle_backup.xml` + 1000; assign IDs from there sequentially
+- [ ] Create `sections/section_<ID>/` directory
+- [ ] Create `sections/section_<ID>/section.xml` with `<section id="<ID>">` and the correct `<number>` (next sequential position)
 - [ ] Add `<section>` entry to `moodle_backup.xml` `<sections>` block
-- [ ] Add `section_7001_included` and `section_7001_userinfo` settings to `moodle_backup.xml` `<settings>` block
+- [ ] Add `section_<ID>_included` and `section_<ID>_userinfo` settings to `moodle_backup.xml` `<settings>` block
 
 ### Checklist for Adding a New Activity
 
-- [ ] Choose a new unique module ID (e.g. `23001`)
-- [ ] Create `activities/forum_23001/` directory (replace `forum` with the actual module type)
-- [ ] Create `activities/forum_23001/module.xml` with `<module id="23001">` and correct `<sectionid>` referencing the parent section
-- [ ] Create the activity-specific XML file (e.g. `forum.xml` with `<forum id="23001">`)
+- [ ] Determine `new_module_start` = max `<moduleid>` in `moodle_backup.xml` + 1000; assign IDs from there sequentially
+- [ ] Create `activities/<type>_<ID>/` directory (e.g. `activities/forum_23535/`)
+- [ ] Create `activities/<type>_<ID>/module.xml` with `<module id="<ID>">` and correct `<sectionid>` referencing the parent section
+- [ ] Create the activity-specific XML file (e.g. `forum.xml` with `<forum id="<ID>">`)
 - [ ] Create any other required files for that activity type (`grades.xml`, `inforef.xml`, `roles.xml`, etc.)
 - [ ] Add `<activity>` entry to `moodle_backup.xml` `<activities>` block with correct `<moduleid>` and `<sectionid>`
-- [ ] Add `forum_23001_included` and `forum_23001_userinfo` settings to `moodle_backup.xml` `<settings>` block
-- [ ] Add the module ID to the section's `<sequence>` in `sections/section_XXXX/section.xml`
+- [ ] Add `<type>_<ID>_included` and `<type>_<ID>_userinfo` settings to `moodle_backup.xml` `<settings>` block
+- [ ] Add the module ID to the parent section's `<sequence>` in `sections/section_<sectionID>/section.xml`
 
 ---
 
 ## Script Recommendation (Future Work)
 
-Rather than manually tracking the highest ID, a helper script should:
+Rather than manually scanning `moodle_backup.xml`, a helper script should:
 
-1. Parse `moodle_backup.xml` to find `max(moduleid)` and `max(sectionid)`.
-2. Return the next safe IDs for use when scaffolding new sections/activities.
-3. Optionally auto-populate the boilerplate XML files with the correct IDs.
-
-This would reduce the risk of ID collisions when multiple sections or activities are added in sequence.
+1. Parse `moodle_backup.xml` of the target course to find `max(moduleid)` and `max(sectionid)`.
+2. Return `max + 1000` as the safe starting ID for new sections and modules.
+3. Optionally scaffolding new sections/activities with the correct IDs already filled in.
 
 ---
 
