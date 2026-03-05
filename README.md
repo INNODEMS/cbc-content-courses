@@ -65,7 +65,7 @@ python scripts/compress_mbz.py backup-moodle2-course-571-real_numbers-20260218-1
 
 The script will:
 - Compress the specified folder from `courses-extracted/` into a `.mbz` file
-- Write the output to `compressed-mbz-files/` (these files are gitignored)
+- Write the output to `compressed-mbz-files/`
 
 ### 6. Upload to Moodle
 
@@ -77,7 +77,7 @@ Upload the `.mbz` file from `compressed-mbz-files/` to Moodle via:
 ```
 ├── raw-mbz-files/          # Original MBZ backup files (source of truth)
 ├── courses-extracted/      # Extracted course content (editable)
-├── compressed-mbz-files/   # Output MBZ files ready for upload (gitignored)
+├── compressed-mbz-files/   # Output MBZ files ready for upload
 ├── docs/                   # Project documentation
 └── scripts/                # Utility scripts
     ├── extract_mbz.py      # Extract an MBZ into courses-extracted/
