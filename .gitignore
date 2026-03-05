@@ -1,0 +1,16 @@
+# Generated MBZ output files (binary, can be regenerated)
+compressed-mbz-files/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor artifacts
+.vscode/settings.json
+*.swp
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db

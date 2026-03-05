@@ -25,30 +25,30 @@
       "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-real-numbers.html",
       "course_logo_file": "real-numbers.jpg",
       "learning_outcomes": [
-    {
-      "id": "lo-real-numbers-1",
-      "description": "Classify whole numbers as odd, even, prime and composite in different situations"
-    },
-    {
-      "id": "lo-real-numbers-2",
-      "description": "Classify real numbers as rational and irrational in different situations"
-    },
-    {
-      "id": "lo-real-numbers-3",
-      "description": "Determine the reciprocal of real numbers by division"
-    },
-    {
-      "id": "lo-real-numbers-4",
-      "description": "Determine the reciprocal of real numbers by use of mathematical tables and calculators"
-    },
-    {
-      "id": "lo-real-numbers-5",
-      "description": "Apply reciprocal of real numbers in mathematical computations"
-    },
-    {
-      "id": "lo-real-numbers-6",
-      "description": "Promote the use of real numbers in day-to-day activities"
-    }
+        {
+          "id": "lo-real-numbers-1",
+          "description": "Classify whole numbers as odd, even, prime and composite in different situations"
+        },
+        {
+          "id": "lo-real-numbers-2",
+          "description": "Classify real numbers as rational and irrational in different situations"
+        },
+        {
+          "id": "lo-real-numbers-3",
+          "description": "Determine the reciprocal of real numbers by division"
+        },
+        {
+          "id": "lo-real-numbers-4",
+          "description": "Determine the reciprocal of real numbers by use of mathematical tables and calculators"
+        },
+        {
+          "id": "lo-real-numbers-5",
+          "description": "Apply reciprocal of real numbers in mathematical computations"
+        },
+        {
+          "id": "lo-real-numbers-6",
+          "description": "Promote the use of real numbers in day-to-day activities"
+        }
       ],
       "lessons": [
         {
@@ -62,7 +62,9 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_even-and-odd-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-184050140f"]
+          "learning_outcome_ids": [
+            "lo-184050140f"
+          ]
         },
         {
           "subsection": "Classification of Numbers",
@@ -75,7 +77,9 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_prime-and-composite-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-184050140f"]
+          "learning_outcome_ids": [
+            "lo-184050140f"
+          ]
         },
         {
           "subsection": "Classification of Numbers",
@@ -88,7 +92,9 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_rational-and-irrational-numbers.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-ddf82c3fb4"]
+          "learning_outcome_ids": [
+            "lo-ddf82c3fb4"
+          ]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -101,7 +107,9 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-division.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-f2638d1c14"]
+          "learning_outcome_ids": [
+            "lo-f2638d1c14"
+          ]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -114,7 +122,9 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_reciprocals-using-tables-and-calculators.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-d523e28d95"]
+          "learning_outcome_ids": [
+            "lo-d523e28d95"
+          ]
         },
         {
           "subsection": "Reciprocals of Numbers",
@@ -127,7 +137,185 @@
           "step_by_step_path": "numbers-and-algebra/real-numbers/step-by-step-guide_using-reciprocals.pdf",
           "lesson_plan_exists": true,
           "step_by_step_exists": true,
-          "learning_outcome_ids": ["lo-8abb0f6683", "lo-79ce74e8e8"]
+          "learning_outcome_ids": [
+            "lo-8abb0f6683",
+            "lo-79ce74e8e8"
+          ]
+        }
+      ]
+    },
+    {
+      "moodle_course_id": null,
+      "moodle_course_folder": "backup-moodle2-course-None-trigonometry-1",
+      "chapter": "Measurements and Geometry",
+      "chapter_filecase": "measurements-and-geometry",
+      "chapter_number": 4,
+      "section": "Trigonometry 1",
+      "section_filecase": "trigonometry-1",
+      "section_number": 4,
+      "student_section_url": "https://innodems.github.io/CBC-Grade-10-Maths/student/sec-trigonometry-1.html",
+      "course_logo_file": null,
+      "learning_outcomes": [
+        {
+          "id": "lo-d6cd1902dc",
+          "description": "Relate the sine, cosine and tangent of acute angles"
+        },
+        {
+          "id": "lo-486b48dcc6",
+          "description": "Relate sines and cosines of complementary angles"
+        },
+        {
+          "id": "lo-48c5b21076",
+          "description": "Determine trigonometric ratios of special angles: 30, 45, 60, and 90 degrees using triangles"
+        },
+        {
+          "id": "lo-81179cdc1e",
+          "description": "Determine the trigonometric ratios of acute angles from mathematical tables and calculators"
+        },
+        {
+          "id": "lo-139a701255",
+          "description": "Apply trigonometric ratios to angles of elevation and depression"
+        },
+        {
+          "id": "lo-d526961706",
+          "description": "Reflect on the use of trigonometry in real-life situations"
+        }
+      ],
+      "lessons": [
+        {
+          "subsection": "Tangents of Acute Angles",
+          "subsection_filecase": "tangents-of-acute-angles",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100001,
+          "forum_id": 101001,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/tangents-of-acute-angles.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_tangents-of-acute-angles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-d6cd1902dc"
+          ]
+        },
+        {
+          "subsection": "Sines and Cosines of Acute Angles",
+          "subsection_filecase": "sines-and-cosines-of-acute-angles",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100002,
+          "forum_id": 101002,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/sines-and-cosines-of-acute-angles.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_sines-and-cosines-of-acute-angles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-d6cd1902dc"
+          ]
+        },
+        {
+          "subsection": "Sines and Cosines of Complementary Angles",
+          "subsection_filecase": "sines-and-cosines-of-complementary-angles",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100003,
+          "forum_id": 101003,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/sines-and-cosines-of-complementary-angles.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_sines-and-cosines-of-complementary-angles.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-486b48dcc6"
+          ]
+        },
+        {
+          "subsection": "Trigonometric Ratios of Special Angles",
+          "subsection_filecase": "trigonometric-ratios-of-special-angles",
+          "subsubsection": "Special Angles: 0, 45, and 90 Degrees",
+          "subsubsection_filecase": "special-angles-0-45-and-90-degrees",
+          "moodle_section_id": 100004,
+          "forum_id": 101004,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/special-angles-0-45-and-90-degrees.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_special-angles-0-45-and-90-degrees.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-48c5b21076"
+          ]
+        },
+        {
+          "subsection": "Trigonometric Ratios of Special Angles",
+          "subsection_filecase": "trigonometric-ratios-of-special-angles",
+          "subsubsection": "Special Angles: 30 and 60 Degrees",
+          "subsubsection_filecase": "special-angles-30-and-60-degrees",
+          "moodle_section_id": 100005,
+          "forum_id": 101005,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/special-angles-30-and-60-degrees.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_special-angles-30-and-60-degrees.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-48c5b21076"
+          ]
+        },
+        {
+          "subsection": "Trigonometry Using Tables and Calculators",
+          "subsection_filecase": "trigonometry-using-tables-and-calculators",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100006,
+          "forum_id": 101006,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/trigonometry-using-tables-and-calculators.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_trigonometry-using-tables-and-calculators.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-81179cdc1e"
+          ]
+        },
+        {
+          "subsection": "Angles of Elevation and Depression",
+          "subsection_filecase": "angles-of-elevation-and-depression",
+          "subsubsection": "Angles of Elevation",
+          "subsubsection_filecase": "angles-of-elevation",
+          "moodle_section_id": 100007,
+          "forum_id": 101007,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/angles-of-elevation.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_angles-of-elevation.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-139a701255"
+          ]
+        },
+        {
+          "subsection": "Angles of Elevation and Depression",
+          "subsection_filecase": "angles-of-elevation-and-depression",
+          "subsubsection": "Angles of Depression",
+          "subsubsection_filecase": "angles-of-depression",
+          "moodle_section_id": 100008,
+          "forum_id": 101008,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/angles-of-depression.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_angles-of-depression.pdf",
+          "lesson_plan_exists": true,
+          "step_by_step_exists": true,
+          "learning_outcome_ids": [
+            "lo-139a701255"
+          ]
+        },
+        {
+          "subsection": "Trigonometry in Real-Life",
+          "subsection_filecase": "trigonometry-in-real-life",
+          "subsubsection": null,
+          "subsubsection_filecase": null,
+          "moodle_section_id": 100009,
+          "forum_id": 101009,
+          "lesson_plan_path": "measurements-and-geometry/trigonometry-1/trigonometry-in-real-life.pdf",
+          "step_by_step_path": "measurements-and-geometry/trigonometry-1/step-by-step-guide_trigonometry-in-real-life.pdf",
+          "lesson_plan_exists": false,
+          "step_by_step_exists": false,
+          "learning_outcome_ids": [
+            "lo-d526961706"
+          ]
         }
       ]
     }
