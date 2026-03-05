@@ -1,0 +1,2 @@
+# Compressed MBZ output files are generated artifacts - do not commit them
+compressed-mbz-files/*.mbz

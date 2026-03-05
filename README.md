@@ -50,11 +50,36 @@ Once extracted, you can edit the course files in `courses-extracted/`:
 
 Commit your changes to git to track course modifications over time.
 
+### 5. Compress Back to MBZ
+
+Once editing is complete, compress the course folder back into an MBZ file ready for upload:
+
+```bash
+python scripts/compress_mbz.py <course-folder-name>
+```
+
+**Example:**
+```bash
+python scripts/compress_mbz.py backup-moodle2-course-571-real_numbers-20260218-1335-nu
+```
+
+The script will:
+- Compress the specified folder from `courses-extracted/` into a `.mbz` file
+- Write the output to `compressed-mbz-files/` (these files are gitignored)
+
+### 6. Upload to Moodle
+
+Upload the `.mbz` file from `compressed-mbz-files/` to Moodle via:
+**Site administration → Courses → Restore**
+
 ## Directory Structure
 
 ```
-├── raw-mbz-files/          # Original MBZ backup files
+├── raw-mbz-files/          # Original MBZ backup files (source of truth)
 ├── courses-extracted/      # Extracted course content (editable)
+├── compressed-mbz-files/   # Output MBZ files ready for upload (gitignored)
+├── docs/                   # Project documentation
 └── scripts/                # Utility scripts
-    └── extract_mbz.py      # Extraction script
+    ├── extract_mbz.py      # Extract an MBZ into courses-extracted/
+    └── compress_mbz.py     # Compress a course folder back into an MBZ
 ```
