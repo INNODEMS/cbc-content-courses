@@ -1,3 +1,3 @@
-This directory holds MBZ files produced by scripts/compress_mbz.py.
+This directory holds MBZ course backup files ready for Moodle upload.
 
-Upload them to Moodle via Site administration → Courses → Restore.
+Upload via Site administration → Courses → Restore.

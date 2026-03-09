@@ -1,85 +1,76 @@
-# cbc-content-courses
+﻿# cbc-content-courses
 
-This repository is for editing and version controlling Moodle course content.
+Moodle course content for **CBC Kenya Grade 10 Mathematics** - 15 courses covering Numbers and Algebra, Measurements and Geometry, and Statistics and Probability.
 
-## To-do
+---
 
-- Spearate the repo in terms of content and scripts. Scripts should be in an IDEMS repo, content should remain in an INNODEMS repo
-- Figure out how to make them talk to each other so that scripts from the IDEMS repo can be read and launched from the INNODEMS repo once separated
-- Write script that reads from the spreadsheet and generates a json with all the data
-- Write a script that populates courses with the data from the json
-- Write a script that compresses a course into an mbz file that is compatible with course files in Moodle
+## Extracting a course
 
-
-## Workflow
-
-### 1. Add MBZ Files
-
-Place your Moodle backup files (`.mbz`) in the `raw-mbz-files/` directory.
-
-### 2. Extract a Course
-
-Run the extraction script with the specific MBZ file you want to extract:
+Place `.mbz` backup files in `compressed-mbz-files/`, then run:
 
 ```bash
-python scripts/extract_mbz.py <filename.mbz>
+python scripts/extract_mbz.py
 ```
 
-**Example:**
-```bash
-python scripts/extract_mbz.py backup-moodle2-course-571-real_numbers-20260218-1335-nu.mbz
+The script will display a numbered list of all `.mbz` files available and prompt you to choose one:
+
+```
+Available courses:
+  1. backup-moodle2-course-583-testing_new-20260309-1558-nu.mbz
+
+Enter number to extract:
 ```
 
-The script will:
-- Extract the specified MBZ file to `courses-extracted/<course-name>/`
-- Overwrite any existing folder with the same name
-- Support ZIP, TAR.GZ, and GZIP archive formats
+The chosen backup is unpacked into `courses-extracted/<filename>/` where all the Moodle XML files can be inspected and edited directly. If a folder with that name already exists it is overwritten automatically.
 
-**Important:** You must specify which file to extract. This prevents accidentally overwriting courses you've already edited.
-
-### 3. Edit Course Content
-
-Once extracted, you can edit the course files in `courses-extracted/`:
-- **moodle_backup.xml** - Main course structure and metadata
-- **activities/** - Course activities and resources
-- **sections/** - Course sections
-- **files/** - Media files and attachments
-- Various XML files for gradebook, questions, roles, etc.
-
-### 4. Version Control
-
-Commit your changes to git to track course modifications over time.
-
-### 5. Compress Back to MBZ
-
-Once editing is complete, compress the course folder back into an MBZ file ready for upload:
+You can also pass the filename directly to skip the prompt:
 
 ```bash
-python scripts/compress_mbz.py <course-folder-name>
+python scripts/extract_mbz.py backup-moodle2-course-583-testing_new-20260309-1558-nu.mbz
 ```
 
-**Example:**
+---
+
+## Building a course
+
+Scripts in `scripts/build-course-scripts/` build a course one step at a time.
+Each script writes its output to `courses-extracted/<folder-name>/` so you can
+inspect the XML at any stage before moving on.
+
+### 1. Create the blank scaffold
+
+Creates the full Moodle backup folder structure with all required stub XML
+files, an Announcements forum in section 0, and one empty section.
+
 ```bash
-python scripts/compress_mbz.py backup-moodle2-course-571-real_numbers-20260218-1335-nu
+python scripts/build-course-scripts/create_blank_course.py [folder-name]
 ```
 
-The script will:
-- Compress the specified folder from `courses-extracted/` into a `.mbz` file
-- Write the output to `compressed-mbz-files/`
+Defaults to `new-blank-course` if no name is given.
 
-### 6. Upload to Moodle
+### 2. Compress to .mbz
 
-Upload the `.mbz` file from `compressed-mbz-files/` to Moodle via:
-**Site administration → Courses → Restore**
+Zips a course folder from `courses-extracted/` into a `.mbz` file in
+`courses-built/` ready for upload to Moodle. Prompts with a numbered list of
+all courses in `courses-extracted/`.
 
-## Directory Structure
+```bash
+python scripts/build-course-scripts/compress.py [folder-name]
+```
+
+Both scripts accept an optional name argument to skip the interactive prompt.
+
+---
+
+## Directory structure
 
 ```
-├── raw-mbz-files/          # Original MBZ backup files (source of truth)
-├── courses-extracted/      # Extracted course content (editable)
-├── compressed-mbz-files/   # Output MBZ files ready for upload
-├── docs/                   # Project documentation
-└── scripts/                # Utility scripts
-    ├── extract_mbz.py      # Extract an MBZ into courses-extracted/
-    └── compress_mbz.py     # Compress a course folder back into an MBZ
+assets/
+  logos/                        # Institutional logo images
+compressed-mbz-files/           # .mbz backups from Moodle server (input)
+courses-extracted/              # Working folder: extracted and newly built courses
+courses-built/                  # Output .mbz files ready for Moodle upload
+scripts/
+  extract_mbz.py                # Extract a .mbz into courses-extracted/
+  build-course-scripts/         # Step-by-step scripts for building a course
 ```
