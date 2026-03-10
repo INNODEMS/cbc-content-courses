@@ -1,0 +1,108 @@
+{
+  "sections": [
+    {
+      "title": "Section 1 Title Placeholder",
+      "description": "Section 1 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 1 Title Placeholder",
+          "description": "Forum 1 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 2 Title Placeholder",
+      "description": "Section 2 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 2 Title Placeholder",
+          "description": "Forum 2 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 3 Title Placeholder",
+      "description": "Section 3 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 3 Title Placeholder",
+          "description": "Forum 3 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 4 Title Placeholder",
+      "description": "Section 4 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 4 Title Placeholder",
+          "description": "Forum 4 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 5 Title Placeholder",
+      "description": "Section 5 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 5 Title Placeholder",
+          "description": "Forum 5 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 6 Title Placeholder",
+      "description": "Section 6 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 6 Title Placeholder",
+          "description": "Forum 6 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 7 Title Placeholder",
+      "description": "Section 7 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 7 Title Placeholder",
+          "description": "Forum 7 description placeholder.",
+          "show_description": false
+        }
+      ]
+    },
+    {
+      "title": "Section 8 Title Placeholder",
+      "description": "Section 8 description placeholder.",
+      "show_description": true,
+      "activities": [
+        {
+          "type": "forum",
+          "title": "Forum 8 Title Placeholder",
+          "description": "Forum 8 description placeholder.",
+          "show_description": false
+        }
+      ]
+    }
+  ]
+}
