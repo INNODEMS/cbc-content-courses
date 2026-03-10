@@ -48,17 +48,28 @@ produce the final `.mbz` in `courses-built/`.
 ### Step 1 — Create a blank course (if one doesn't exist yet)
 
 ```bash
-python scripts/build-course-scripts/create_blank_course.py new-blank-course
+python scripts/build-course-scripts/create_blank_course.py
 ```
 
-This creates `courses-extracted/new-blank-course/` with a minimal valid structure.
+You will be prompted to enter a course name. The script will derive a folder name
+from it (lowercase, hyphenated) and ask you to confirm before creating it.
+The course fullname and shortname will both be set to the name you enter.
+
+Example:
+```
+Enter course name: Real Numbers
+  Folder name will be: real-numbers
+  Proceed? [Y/n]:
+```
+
+This creates `courses-extracted/real-numbers/` with a minimal valid structure.
 
 ---
 
-### Step 2 — Prepare the JSON data
+### Step 2 — Add course data and populate
 
-Edit `data/new-course-sections-data.json`. It must have a `"sections"` array.
-Each entry represents one content section with an optional forum activity:
+Edit `data/new-course-sections-data.json` with your course content. Each entry in
+the `"sections"` array represents one content section with an optional forum activity:
 
 ```json
 {
@@ -80,22 +91,19 @@ Each entry represents one content section with an optional forum activity:
 }
 ```
 
----
-
-### Step 3 — Populate the course
+Then run:
 
 ```bash
 python scripts/build-course-scripts/populate_course.py
 ```
 
-You will be prompted to select a course from `courses-extracted/`. Choose
-`new-blank-course`. The script will:
+You will be prompted to select a course from `courses-extracted/`. The script will:
 
 - Remove any existing content sections (section 0 / Announcements is preserved)
 - Write fresh section and forum activity folders from the JSON
 - Rebuild `moodle_backup.xml` to reflect the new structure
 
-**What to verify in `courses-extracted/new-blank-course/`:**
+**What to verify in `courses-extracted/<folder-name>/`:**
 
 - `sections/` — one subfolder per section. Each `section.xml` should have the correct `<name>`, `<summary>`, and `<sequence>`.
 - `activities/` — one `forum_N/` subfolder per forum. Check `forum.xml` for `<name>` and `<intro>`, and `module.xml` for `<showdescription>`.
@@ -103,7 +111,7 @@ You will be prompted to select a course from `courses-extracted/`. Choose
 
 ---
 
-### Step 4 — Compress
+### Step 3 — Compress
 
 ```bash
 python scripts/build-course-scripts/compress.py

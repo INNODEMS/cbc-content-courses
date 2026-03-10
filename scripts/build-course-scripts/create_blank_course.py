@@ -17,6 +17,7 @@ An existing folder with the same name is overwritten automatically.
 """
 
 import hashlib
+import re
 import shutil
 import sys
 import time
@@ -25,9 +26,6 @@ from pathlib import Path
 REPO_ROOT  = Path(__file__).resolve().parent.parent.parent
 TARGET_DIR = REPO_ROOT / "courses-extracted"
 
-COURSE_TITLE   = "New Blank Course"
-COURSE_SHORT   = "new blank course"
-SECTION_0_NAME = COURSE_TITLE
 SECTION_1_NAME = "Blank Section 1"
 
 # Stable IDs used inside the XML.
@@ -48,6 +46,29 @@ ENROL_SELF_ID   = 3
 # Helpers
 # ---------------------------------------------------------------------------
 
+def to_folder_name(name: str) -> str:
+    """Convert a course title to a lowercase hyphenated folder name."""
+    slug = name.lower()
+    slug = re.sub(r"[^\w\s-]", "", slug)   # strip special chars
+    slug = re.sub(r"[\s_]+", "-", slug)    # spaces/underscores → hyphens
+    slug = re.sub(r"-+", "-", slug)         # collapse multiple hyphens
+    return slug.strip("-")
+
+
+def prompt_course_name() -> tuple[str, str]:
+    """Ask for a course name and return (course_title, folder_name)."""
+    while True:
+        name = input("Enter course name: ").strip()
+        if not name:
+            print("  Course name cannot be empty.")
+            continue
+        folder = to_folder_name(name)
+        print(f"  Folder name will be: {folder}")
+        confirm = input("  Proceed? [Y/n]: ").strip().lower()
+        if confirm in ("", "y", "yes"):
+            return name, folder
+
+
 def write(path: Path, content: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(content, encoding="utf-8")
@@ -61,12 +82,12 @@ def _backup_id(now: int) -> str:
 # XML builders
 # ---------------------------------------------------------------------------
 
-def _course_xml(now: int) -> str:
+def _course_xml(course_title: str, now: int) -> str:
     return f"""\
 <?xml version="1.0" encoding="UTF-8"?>
 <course id="{COURSE_ID}" contextid="{COURSE_CTXID}">
-  <shortname>{COURSE_SHORT}</shortname>
-  <fullname>{COURSE_TITLE}</fullname>
+  <shortname>{course_title}</shortname>
+  <fullname>{course_title}</fullname>
   <idnumber></idnumber>
   <summary></summary>
   <summaryformat>0</summaryformat>
@@ -273,7 +294,7 @@ def _enrolments_xml(now: int) -> str:
 </enrolments>"""
 
 
-def _moodle_backup_xml(folder_name: str, now: int) -> str:
+def _moodle_backup_xml(folder_name: str, course_title: str, now: int) -> str:
     mbz_name = folder_name if folder_name.endswith(".mbz") else f"{folder_name}.mbz"
     return f"""\
 <?xml version="1.0" encoding="UTF-8"?>
@@ -292,8 +313,8 @@ def _moodle_backup_xml(folder_name: str, now: int) -> str:
     <original_site_identifier_hash>a49c31a10f6515d8a48a2a8422502bba</original_site_identifier_hash>
     <original_course_id>{COURSE_ID}</original_course_id>
     <original_course_format>topics</original_course_format>
-    <original_course_fullname>{COURSE_TITLE}</original_course_fullname>
-    <original_course_shortname>{COURSE_SHORT}</original_course_shortname>
+    <original_course_fullname>{course_title}</original_course_fullname>
+    <original_course_shortname>{course_title}</original_course_shortname>
     <original_course_startdate>{now}</original_course_startdate>
     <original_course_enddate>0</original_course_enddate>
     <original_course_contextid>{COURSE_CTXID}</original_course_contextid>
@@ -337,7 +358,7 @@ def _moodle_backup_xml(folder_name: str, now: int) -> str:
       </sections>
       <course>
         <courseid>{COURSE_ID}</courseid>
-        <title>{COURSE_TITLE}</title>
+        <title>{course_title}</title>
         <directory>course</directory>
       </course>
     </contents>
@@ -602,7 +623,7 @@ STUB_GRADING     = '<?xml version="1.0" encoding="UTF-8"?>\n<areas>\n</areas>'
 # Main builder
 # ---------------------------------------------------------------------------
 
-def create_blank_course(folder_name: str) -> None:
+def create_blank_course(course_title: str, folder_name: str) -> None:
     out = TARGET_DIR / folder_name
 
     if out.exists():
@@ -631,12 +652,12 @@ def create_blank_course(folder_name: str) -> None:
     write(out / "course" / "inforef.xml",           STUB_COURSE_INFOREF)
     write(out / "course" / "roles.xml",             STUB_ROLES)
     write(out / "course" / "enrolments.xml",        _enrolments_xml(now))
-    write(out / "course" / "course.xml",            _course_xml(now))
+    write(out / "course" / "course.xml",            _course_xml(course_title, now))
 
     # --- section 0 ---
     s0 = out / "sections" / f"section_{SECTION_0_ID}"
     write(s0 / "inforef.xml", STUB_INFOREF)
-    write(s0 / "section.xml", _section_xml(SECTION_0_ID, 0, SECTION_0_NAME,
+    write(s0 / "section.xml", _section_xml(SECTION_0_ID, 0, course_title,
                                             str(FORUM_MOD_ID), now))
 
     # --- section 1 ---
@@ -659,14 +680,19 @@ def create_blank_course(folder_name: str) -> None:
     write(af / "module.xml",      _module_xml(now))
 
     # --- manifest ---
-    write(out / "moodle_backup.xml", _moodle_backup_xml(folder_name, now))
+    write(out / "moodle_backup.xml", _moodle_backup_xml(folder_name, course_title, now))
 
     print(f"Created: {out.relative_to(REPO_ROOT)}/")
-    print(f"  sections/section_{SECTION_0_ID}/  → {SECTION_0_NAME}")
+    print(f"  sections/section_{SECTION_0_ID}/  → {course_title}")
     print(f"  sections/section_{SECTION_1_ID}/  → {SECTION_1_NAME}")
     print(f"  activities/forum_{FORUM_MOD_ID}/  → Announcements")
 
 
 if __name__ == "__main__":
-    folder = sys.argv[1] if len(sys.argv) > 1 else "new-blank-course"
-    create_blank_course(folder)
+    if len(sys.argv) > 1:
+        # Name provided as argument: derive folder name from it
+        course_title = sys.argv[1]
+        folder_name  = to_folder_name(course_title)
+    else:
+        course_title, folder_name = prompt_course_name()
+    create_blank_course(course_title, folder_name)
