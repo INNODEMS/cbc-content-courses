@@ -43,22 +43,34 @@ Creates the full Moodle backup folder structure with all required stub XML
 files, an Announcements forum in section 0, and one empty section.
 
 ```bash
-python scripts/build-course-scripts/create_blank_course.py [folder-name]
+python scripts/build-course-scripts/create_blank_course.py
 ```
 
-Defaults to `new-blank-course` if no name is given.
+You will be prompted to enter a course name. The script derives a folder name
+from it (lowercase, hyphenated) and asks you to confirm. The course fullname
+and shortname are both set to the name you enter.
 
-### 2. Compress to .mbz
+### 2. Add course data and populate
 
-Zips a course folder from `courses-extracted/` into a `.mbz` file in
-`courses-built/` ready for upload to Moodle. Prompts with a numbered list of
-all courses in `courses-extracted/`.
+Edit `data/new-course-sections-data.json` with your section titles, descriptions,
+and forum activities, then run:
 
 ```bash
-python scripts/build-course-scripts/compress.py [folder-name]
+python scripts/build-course-scripts/populate_course.py
 ```
 
-Both scripts accept an optional name argument to skip the interactive prompt.
+You will be prompted to select a course from `courses-extracted/`. The script
+replaces all content sections with the data from the JSON file, leaving section 0
+(Announcements) untouched, and rebuilds `moodle_backup.xml`.
+
+### 3. Compress to .mbz
+
+Zips a course folder from `courses-extracted/` into a `.mbz` file in
+`courses-built/` ready for upload to Moodle.
+
+```bash
+python scripts/build-course-scripts/compress.py
+```
 
 ---
 
